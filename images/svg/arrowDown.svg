@@ -1,0 +1,42 @@
+<svg version="1.1" class="colorwhite" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1160 70">
+	
+	<defs>
+		
+		<style type="text/css">
+			.doubleOpenCircle,
+			.line,
+			.singleOpenCircle,
+			.zigzag {
+				fill:none;
+    			stroke:#00B495;
+    			stroke-width:2px;
+				cursor:pointer;
+			}
+			.fullArrowDown,
+			.fullArrowUp {
+    			fill:#00B495;
+				cursor:pointer;
+			}
+			.line {
+    			fill:none;
+    			stroke-dasharray:6px,2px;
+			}
+		</style>
+
+		<g id="fullArrowDown">
+   			<polygon points="4.671,-3.561 0,3.561 -4.671,-3.561 "></polygon>
+		</g>
+
+		<g id="doubleOpenCircle">
+   			<circle fill="none" cx="0" cy="0" r="3"></circle>
+   			<circle fill="none" cx="0" cy="0" r="8.5"></circle>
+		</g>
+
+	</defs>
+	
+	<path class="line" d="M580,19 L580,68"></path>
+
+	<use xlink:href="#doubleOpenCircle" class="doubleOpenCircle" x="580" y="9.5"></use>
+	<use xlink:href="#fullArrowDown" class="fullArrowDown" x="580" y="66"></use>
+</svg>
+

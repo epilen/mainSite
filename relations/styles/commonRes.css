@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/*
+	Responsive CSS for common elements
+*/
+
+/* MD */
+@media (min-width: 992px) and (max-width: 1200px) and (orientation:landscape) {
+	
+	/* Custom Page Scroll-bar CSS */
+	.pageScroll::-webkit-scrollbar {
+  		width: 6px;
+	}
+
+	.pageScroll::-webkit-scrollbar-thumb {
+  		-webkit-border-radius: 4px;
+  		-moz-border-radius: 4px;
+  		border-radius: 4px;
+	}
+	
+	/* menu */
+	#relationsMenuCol>a>img[identifier="logo"]{
+		height: 40px;
+	}
+
+	#relationsMenuLink>p{
+		font-size: 1.245rem;
+	}
+
+	#relationsMenuLink>p[identifier="highlightMenu"]>a{
+		font-size: 1.145rem;
+	}
+	
+	/* footer */
+	#footerSocial>p{
+		font-size: 1.5rem;
+	}
+	
+	#footerSocial>p>span{
+		font-size: 2.0rem;
+	}
+	
+	#footerLinkLogoCol>a>img[identifier="logoSymbol"]{
+		height: 24px;
+	}
+	
+	#footerLinkLogoCol>a>span[identifier="logoText"]{
+		font-size: 2.0rem;
+	}
+	
+	#footerLinkGeneral{
+    	margin-left: 0;
+	}
+	
+	#footerLinkGeneral>a{
+		font-size: 1.4rem;
+	}
+	
+	#footerLinkContact{
+    	margin-left: 0;
+	}
+	
+	#footerLinkContact>p>span[identifier="icon"]{
+		font-size: 2.0rem;
+	}
+	
+	#footerLinkContact>p>span[identifier="text"]{
+		font-size: 1.35rem;
+		top: -5.7px;
+	}
+	
+	#footerNote>p{
+		font-size: 1.045rem;
+		margin-bottom: .7%;
+	}
+	
+}
+
+/* SM */
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	/* Custom Page Scroll-bar CSS */
+	.pageScroll::-webkit-scrollbar {
+  		width: 5px;
+	}
+
+	.pageScroll::-webkit-scrollbar-thumb {
+  		-webkit-border-radius: 3px;
+  		-moz-border-radius: 3px;
+  		border-radius: 3px;
+	}
+	
+	/* menu */
+	#relationsMenuCol>a>img[identifier="logo"]{
+		height: 38px;
+	}
+
+	#relationsMenuLink>p{
+		font-size: 1.155rem;
+	}
+
+	#relationsMenuLink>p[identifier="highlightMenu"]>a{
+		font-size: 1.045rem;
+	}
+	
+	/* footer */
+	#footerSocial>p{
+		font-size: 1.35rem;
+	}
+	
+	#footerSocial>p>span{
+		font-size: 1.7rem;
+	}
+	
+	#footerLinkLogoCol>a>img[identifier="logoSymbol"]{
+		height: 20px;
+	}
+	
+	#footerLinkGeneral{
+    	margin-left: 0;
+	}
+	
+	#footerLinkGeneral>a{
+		font-size: 1.3rem;
+	}
+	
+	#footerLinkContact{
+    	margin-left: 0;
+	}
+	
+	#footerLinkContact>p>span[identifier="icon"]{
+		font-size: 1.8rem;
+	}
+	
+	#footerLinkContact>p>span[identifier="text"]{
+		font-size: 1.245rem;
+		top: -5.7px;
+	}
+	
+	#footerNote>p{
+		font-size: 1.025rem;
+		margin-bottom: .7%;
+	}
+	
+}

@@ -1,0 +1,78 @@
+{"epilenJobs":[
+    {
+        "id": "FT101",
+		"type": "FT",
+        "title": "Software Engineer, iOS",
+        "area": "Engineering",
+		"postDate": "04 September 2017",
+		"location": "New Delhi - India",
+		"angelLink": "https://angel.co/epilen/jobs/274992-software-engineer-ios",
+		"overview": "At Epilen we make sense of people's health through data. We're connecting health data to the curious minds and hungry algorithms that need it to drive better healthcare decisions. This is an ambitious project, so we are trying to find not only the smartest people, but those who are genuinely passionate and curious about our endeavors. <br /><br />We are looking for product-aware engineers who are thoughtful, responsible and passionate individuals who appreciate user experience. We're looking for someone who is not only well versed in iOS development, but also has a strong understanding of good UX and is excited to learn about and contribute to the server side.",
+		"profiles": "5+ years of relevant work experience in development on iOS platforms;<br />Experience shipping one or more Objective-C or Swift iOS app, ideally currently available in an app store;<br />Personal projects that show an aptitude for engineering and product sense;<br />Ability to work in areas outside of their usual comfort zone and get things done quickly;<br />Passion for building and helping others build accessible UIs.",
+		"benefits": "Competitive salaries;<br />2 employee travel program in a year;<br />Medical & dental insurance<sup>‡</sup>;<br />Community Involvement (4 hours per month to help the people we serve by talking to them and understanding the ways to help beyond Epilen);<br />Company sponsored/invited tech talks and happy hours;<br />On-time salary & rewards."
+    },
+	{
+        "id": "FT102",
+		"type": "FT",
+        "title": "Software Engineer, Analytics Product",
+        "area": "Engineering",
+		"postDate": "10 July 2017",
+		"location": "New Delhi - India",
+		"angelLink": "https://angel.co/epilen/jobs/208663-senior-software-engineer-full-stack",
+		"overview": "At Epilen we make sense of people's health through data. We're connecting health data to the curious minds and hungry algorithms that need it to drive better healthcare decisions. This is an ambitious project, so we are trying to find not only the smartest people, but those who are genuinely passionate and curious about our endeavors. <br /><br />The Analytics product team's mission is to empower everyone at Epilen to make data-informed decisions. Our products include an array of data tools for visualization, discovery, anomaly detection, logging and session analysis.<br /><br />Our team is looking for a talented full-stack engineer to join our Data Analytics Team and have the opportunity to not only scale the consumption of data, but the potential to transform the entire health care.",
+		"profiles": "2+ years of relevant software engineering work experience;<br />Experience with Python web development using either Flask, Django or Tornado;<br />Experience building modern Javascript applications using React, ES6 and an implementation of the flux pattern;;<br />Hands-on experience and familiarity with data visualization libraries and primitives such as d3.js, svg, canvas and WebGL;<br />Experience with geospatial data visualization;<br />Fluency in SQL and experience with Pandas.",
+		"benefits": "Competitive salaries;<br />2 employee travel program in a year;<br />Medical & dental insurance<sup>‡</sup>;<br />Community Involvement (4 hours per month to help the people we serve by talking to them and understanding the ways to help beyond Epilen);<br />Company sponsored/invited tech talks and happy hours;<br />On-time salary & rewards."
+    },
+	{
+        "id": "FT103",
+		"type": "FT",
+        "title": "Interface Designer",
+        "area": "Design",
+		"postDate": "26 January 2017",
+		"location": "New Delhi - India",
+		"angelLink": "https://angel.co/epilen/jobs/208687-interface-designer",
+		"overview": "As an Interface Designer at Epilen, you’ll be a primary voice in ensuring that company brand is communicated through our product interfaces and evolves with the company. You will be a part of a startup that embraces the importance of user experience and design and you will be influencing the company’s product design vision end to end, working directly on your own challenging projects and continuously motivating others through your creative spirit.<br /><br />As an Epilen interface designer, you will make the complex simple and know the details aren't the details, they are the product. Do you love to choreograph the dance of getting users from A to B? Are your instincts in touch with a higher power known as 'usability'? Well then you get that the best interactions aren't even noticed by a user because the design gets out of their way.<br /><br />You believe in the transformative power of data and are excited by its potential to drive impactful change in people's lives. You embrace responsibility: the bucks stops with you. You're both a motivational coach and hands-on player, with expert-level skills in user-orientated design. You're entrepreneurial, generous, and thrive in a highly iterative environment. You love stepping into the shoes of users, thinking strategically about how we deliver value to clients, and can lead multiple projects from concept to completion, and have experience bringing a consistent voice from marketing and branding all the way through to a complete product experience.<br /><br />Design is the driving force for how we build product and present the company to the market.",
+		"profilesTitle": "Qualification<br />Stack Experience<br />Industry Experience<br />Exposure to architectural patterns<br />Security experience<br />Experience with best web ptractices<br />Experience in Restful services<br />Coding pattern<br />Understanding of Front-end<br />Scrum methodology<br />Personal projects experience<br />Get things done quickly<br />Co-develop technologies<br />Technical Communication skills<br />Optimism<br />Startup experience",
+		"profiles": "A Bachelor or Masters in Computer Science or Interface Design or related field (Academic Qualification is not our priority, selection criteria is purely based upon your knowledge on the subject & attitude to thrive in a start-up environment);<br />You have held an interface design role for at least 2+ years at a digital product company, and additionally, you have 2+ years of web/mobile design experience;<br />Experience building and evolving the visual assets that allow our brand to be applied consistently in products;<br />Experience with rapid digital prototyping methods and processes, as well as user research;<br />Demonstrate experience with end-to-end product design;<br />Have cross-platform design experiences (Web, android, iOS, emails);<br />A desire to create a truly differentiated experience for customers;<br />The ability to clearly communicate design priorities and principles to a variety of stakeholders and adapt quickly to change;<br />Be open to receiving feedback and creating a culture of constructive criticism;<br />Passion about the potential of data products to solve important problems in both the public and private sectors;<br />Experience designing for B2B, SaaS or BI tools a plus;<br />Ability to work in areas outside of their usual comfort zone and get things done quickly;<br />Willing travel to our partnered hospital/clinic locations to co-design products;<br />An inherent generosity, strong intellectual curiosity, and hustle;<br />Have shipped product;<br />Previous startup experience is a plus.",
+		"benefits": "Competitive salaries;<br />2 employee travel program in a year;<br />Medical & dental insurance<sup>‡</sup>;<br />Community Involvement (4 hours per month to help the people we serve by talking to them and understanding the ways to help beyond Epilen);<br />Company sponsored/invited tech talks and happy hours;<br />On-time salary & rewards."
+    },
+	{
+        "id": "FT104",
+		"type": "FT",
+        "title": "Senior Android Developer",
+        "area": "Mobility Solutions",
+		"postDate": "26 January 2017",
+		"location": "New Delhi - India",
+		"angelLink": "https://angel.co/epilen/jobs/208692-senior-android-developer",
+		"overview": "We are looking for talented Android Developers to join us in our New Delhi office and help us to make the best healthcare app in the world! We are not afraid to experiment, think big or aim high! Our development strategy is agile and we work in small Scrum team. We do several code rollouts every day, are data-driven and do extensive A/B testing on both user and partner facing platforms.<br /><br />Our guiding principle is that by helping our users we help our business, so we listen to our customers and give them the product they'd love to use. As an Android developer in our team you’ll be a key part of the idea generation process, working in a small start up-like group which takes full ownership of its part of our platform. You’ll be working on the iterative improvements we make as part of our high-speed release cycles, as well as looking ahead and implementing broader changes to our mobile app.<br /><br />We expect our developers to know the ins and outs of the Android framework and to deliver polished products people want to use. We need self-starters who are great at solving problems, initiate solutions and discussions and are not afraid of solving challenges.",
+		"profilesTitle": "Qualification<br />Stack Experience<br />Industry Experience<br />Exposure to architectural patterns<br />Security experience<br />Experience with best web ptractices<br />Experience in Restful services<br />Coding pattern<br />Understanding of Front-end<br />Scrum methodology<br />Personal projects experience<br />Get things done quickly<br />Co-develop technologies<br />Technical Communication skills<br />Optimism<br />Startup experience",
+		"profiles": "A B.Tech/BE/BCA/B.Sc or equivalent Masters in Computer Science or related field (Academic Qualification is not our priority, selection criteria is purely based upon your knowledge on the subject & attitude to thrive in a start-up environment);<br />Rapidly develop new features and A/B test them with our customers;<br />Solve issues with the app, prioritizing based on customer impact;<br />Collaborate with Back-end Developers and Designers to constantly work & improve the Android app;<br />Prior experience working in high security environments — e.g., payments — is preferred;<br />2+ years of Android application development using Android SDK;<br />3+ years of experience as a developer with Java and other languages;<br />Understands the value of testing and documentation;<br />Writes comprehensible, maintainable code.<br />Strong interaction and design sense, excellent attention to detail.<br />Self-motivated to explore new technologies, applications and environments;<br />Experience with Android Market place & Distribution Process;<br />An approved Play store app;<br />SQL knowledge and/or willingness to learn;<br />Experience working with A/B testing;<br />You’re not afraid to solve deep technical challenges of a whole new level;<br />Personal projects that show an aptitude for engineering and product sense;<br />Ability to work in areas outside of their usual comfort zone and get things done quickly;<br />Willing travel to our partnered hospital/clinic locations to co-develop technologies;<br />Strong communication skills - able to understand and explain highly technical information in a clear and concise manner;<br />You have an intrinsic curiosity in technological innovations and you are always on top of the latest trends;<br />Previous startup experience is a plus.",
+		"benefits": "Competitive salaries;<br />2 employee travel program in a year;<br />Medical & dental insurance<sup>‡</sup>;<br />Community Involvement (4 hours per month to help the people we serve by talking to them and understanding the ways to help beyond Epilen);<br />Company sponsored/invited tech talks and happy hours;<br />On-time salary & rewards."
+    },
+	{
+        "id": "AS101",
+		"type": "AS",
+        "title": "Software Engineer, New Graduate 2018",
+        "area": "Engineering",
+		"postDate": "04 September 2017",
+		"location": "New Delhi - India",
+		"angelLink": "https://angel.co/epilen",
+		"overview": "At Epilen we make sense of people's health through data. We're connecting health data to the curious minds and hungry algorithms that need it to drive better healthcare decisions. This is an ambitious project, so we are trying to find not only the smartest people, but those who are genuinely passionate and curious about our endeavors.<br /><br />We are looking for passionate, technically agile new grads who want to be part of a company that's pioneering a new kind of global healthcare advancements.",
+		"profilesTitle": "Qualification<br />Stack Experience<br />Industry Experience<br />Exposure to architectural patterns<br />Security experience<br />Experience with best web ptractices<br />Experience in Restful services<br />Coding pattern<br />Understanding of Front-end<br />Scrum methodology<br />Personal projects experience<br />Get things done quickly<br />Co-develop technologies<br />Technical Communication skills<br />Optimism<br />Startup experience",
+		"profiles": "B.Tech/BE/BS and/or M.Tech/ME/MS degree in computer science, information technology, math or a related technical field;<br />Experience using Java, Python, Scala, Ruby and/or Ruby on Rails;<br />Experience using C++, and SQL and/or MongoDB for the backend (project dependent);<br />Experience using HTML/CSS, and Javascript for the frontend (project dependent).",
+		"benefits": "Competitive salaries;<br />Medical, dental, & vision insurance;<br />Company Salaried accounts;<br />Apple equipment;<br />Company sponsored/invited tech talks;<br />Travel program in a year."
+    },
+	{
+        "id": "AS102",
+		"type": "AS",
+        "title": "Experience Designer, New Graduate 2018",
+        "area": "Design",
+		"postDate": "04 September 2017",
+		"location": "New Delhi - India",
+		"angelLink": "https://angel.co/epilen",
+		"overview": "Epilen's experience designers make the complex simple and know the details aren't the details, they are the product. Do you love the choreograph the dance of getting users from A to B? Are you instincts in touch with a higher power known as 'usability'? Well then you get that the best interactions aren't even noticed by a user because the design gets out of their way.<br /><br />We're looking for new graduates in the role of Experience Designers who are excited to build new products.",
+		"profilesTitle": "Qualification<br />Stack Experience<br />Industry Experience<br />Exposure to architectural patterns<br />Security experience<br />Experience with best web ptractices<br />Experience in Restful services<br />Coding pattern<br />Understanding of Front-end<br />Scrum methodology<br />Personal projects experience<br />Get things done quickly<br />Co-develop technologies<br />Technical Communication skills<br />Optimism<br />Startup experience",
+		"profiles": "Excellent communication skills in English;<br />Lo-fi & hi-fi prototyping skills;<br />Demonstrate experience with end-to-end product design;<br />Have cross-platform design experiences (Web, android, iOS, emails).",
+		"benefits": "Competitive salaries;<br />Medical, dental, & vision insurance;<br />Company Salaried accounts;<br />Apple equipment;<br />Company sponsored/invited tech talks;<br />Travel program in a year."
+    }
+]}

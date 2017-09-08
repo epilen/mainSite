@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/*
+	Terms of Usage CSS for MD/SM/XS Screens
+*/
+
+/* MD Screens */
+@media (min-width: 992px) and (max-width: 1200px) and (orientation:landscape) {
+	
+	/* home */
+	#termsContentCo>p[identifier="title"]{
+		font-size: 3.445rem;
+		line-height: 1.885;
+		width: 70%;
+		margin-left: 15%;
+	}
+	
+	#termsContentCo>span[identifier="arrowDown"]{
+		font-size: 3.69895rem;
+	}
+	
+	/* note */
+	#noteCon{
+		padding-bottom: 10vh;
+	}
+	
+	#noteContent>p[identifier="mainTitle"]{
+		font-size:1.8rem;
+	}
+
+	#noteContent>p[identifier="mainTitle"]>span[identifier="icon"]{
+		font-size:1.8rem;
+	}
+
+	#noteContentl>p[identifier="mainTitle"]>span[identifier="text"]{
+		left:6px;
+		top:-2px;
+	}
+
+	#noteContent>p[identifier="title"]{
+		font-size:1.8rem;
+	}
+
+	#noteContentl>p[identifier="subTitle"]{
+		font-size:1.45rem;
+		margin-top:1.5%;
+	}
+
+	#noteContent>p[identifier="text"]{
+		font-size:1.3rem;
+		margin-top:1%;
+	}
+
+
+	#noteContent>ol{
+		font-size:1.24rem;
+		margin-top:1%;
+	}
+
+	#noteContent>ul{
+		font-size:1.3rem;
+		margin-top:1%;
+	}
+
+}
+
+/* SM Screens */
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	/* home */
+	#termsContentCo>p[identifier="title"]{
+		font-size: 3.245rem;
+		line-height: 1.885;
+		width: 70%;
+		margin-left: 15%;
+	}
+	
+	#termsContentCo>span[identifier="arrowDown"]{
+		font-size: 3.249585rem;
+		top: 34vh;
+	}
+	
+	/* note */
+	#noteCon{
+		padding-bottom: 10vh;
+	}
+	
+	#noteContent>p[identifier="mainTitle"]{
+		font-size:1.6rem;
+	}
+
+	#noteContent>p[identifier="mainTitle"]>span[identifier="icon"]{
+		font-size:1.6rem;
+	}
+
+	#noteContent>p[identifier="mainTitle"]>span[identifier="text"]{
+		left:6px;
+		top:-2px;
+	}
+
+	#noteContent>p[identifier="title"]{
+		font-size:1.6rem;
+	}
+
+	#noteContent>p[identifier="subTitle"]{
+		font-size:1.35rem;
+		margin-top:1.5%;
+	}
+
+	#noteContent>p[identifier="text"]{
+		font-size:1.145rem;
+		margin-top:1%;
+	}
+
+	#noteContent>ol{
+		font-size:1.2rem;
+		margin-top:1%;
+	}
+
+	#noteContent>ul{
+		font-size:1.3rem;
+		margin-top:1%;
+	}
+	
+}
+
+/* XS Screens */
+@media screen and (max-width: 768px) {
+	
+	/* home */
+	#termsContentCo{
+		margin-top: 36vh;
+	}
+	
+	#termsContentCo>p[identifier="title"]{
+		font-size: 4.065rem;
+		line-height: 1.17;
+	}
+
+	#termsContentCo>span[identifier="arrowDown"]{
+		font-size: 4.0rem;
+		top: 28vh;
+	}
+	
+	/* note */
+	#noteCon{
+		padding-bottom: 10vh;
+	}
+	
+}

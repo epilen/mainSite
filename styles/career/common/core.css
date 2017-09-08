@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*
+	CSS for common elements - Epilen Talent (Careers)
+*/
+
+/* menu */
+#talentMenuRow{
+	min-height: 70px;
+	width: 100%;
+	top: 0;
+	padding: 10px 10px 7px 10px;
+	text-shadow: 0 0 15px rgba(0, 0, 0, 0.6), 0 -1px -1px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 px 6px rgba(0,0,0,.1) !important;
+	margin-top: 1%;
+}
+
+#talentMenuCol>a{
+	color: inherit;
+	top: 2px;
+}
+
+#talentMenuCol>a>img[identifier="logo"]{
+	height: 56px;
+	width: auto;
+}
+
+#talentMenuLink{
+	margin-top: 0;
+}
+
+#talentMenuLink>p{
+	font-size: 1.5rem;
+	color: #fff;
+	margin-right: 24px;
+}
+
+#talentMenuLink>p[type="link"]{
+	top: 2px;
+}
+
+#talentMenuLink>p[identifier="highlightMenu"]{
+	margin-right: 18px;
+	border-color: #f2f2f2;
+	background: #fff;
+	border-width: 1px;
+	border-style: solid;
+	padding: 2px 6px !important;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-ms-border-radius: 4px;
+}
+
+#talentMenuLink>p[identifier="highlightMenu"]>a{
+	font-size: 1.245rem;
+	color: #000;
+}
+
+/* footer.php */
+#footerViewCareer{
+	min-height: 60vh;
+	width: 80%;
+	margin-left: 10%;
+	padding-top: 3vh;
+}
+
+#footerLinkGeneral>a[identifier="career"]{
+	padding-left: 26px;
+}

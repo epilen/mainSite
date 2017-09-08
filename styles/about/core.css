@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/*
+	About Page CSS
+*/
+
+/* home */
+#aboutConCo{
+	background: linear-gradient(180deg, #27282c 1%, rgba(65, 66, 67, 0.445) 36%, #27282c), url("../../images/about/achieve.jpg");
+	min-height: 100vh;
+}
+
+#aboutConLayer{
+	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,1), transparent);
+    background-image: -moz-gradient(bottom, rgba(0,0,0,1), transparent);
+    background-image: -o-linear-gradient(bottom, rgba(0,0,0,1), transparent);
+    background-image: -ms-linear-gradient(bottom, rgba(0,0,0,1), transparent);
+    background-image: linear-gradient(to top, rgba(0,0,0,1), transparent);
+	min-height: 100vh;
+}
+
+#aboutContentCo{
+	margin-top: 38vh;
+}
+
+#aboutContentCo>p[identifier="title"]{
+	font-size: 1.28vw;
+	color: #fff;
+	line-height: 1.8;
+	text-shadow: 3px 3px 12px rgba(0,0,0,.6);
+	width: 60%;
+	margin-left: 20%;
+}
+
+#aboutContentCo>span[identifier="arrowDown"]{
+	font-size: 2.9vw;
+	color: rgba(255,255,255,.45);
+	top: 26vh;
+}
+
+#aboutContentCo>span[identifier="arrowDown"]:hover{
+	color: #fff;
+}
+
+/* evolution */
+#evolutionCon{
+	background: #f5f5f5;
+    min-height: 100vh;
+}
+
+#evolutionContent{
+	max-width: 70%;
+	margin-top: 20vh;
+	margin-left: 15%;
+}
+
+#evolutionContent>p[identifier="title"]{
+	font-size: 1.75vw;
+	color: #000;
+	letter-spacing: .8px;
+	line-height: 1.4;
+	border-bottom: 2.245px dotted #000;
+	padding-bottom: 6vh;
+}
+
+#evolutionContent>p[identifier="title"]>span{
+	font-weight: 500;
+	color: #000;
+}
+
+#evolutionSummaryRo{
+	margin-top: 6vh;
+}
+
+#evolutionSummaryContent>p[identifier="text"]{
+	font-size: .98vw;
+	color: #000;
+	letter-spacing: .8px;
+	line-height: 1.72;
+}
+
+/* mission */
+#missionCon{
+	background: linear-gradient(to right bottom, rgb(252, 153, 3) 0%, rgb(245, 44, 131) 90%);
+	background: linear-gradient(to right bottom, rgb(22, 153, 3) 0%, rgb(25,152,300) 90%);
+    min-height: 100vh;
+}
+
+#missionContent{
+	max-width: 70%;
+	margin-top: 8vh;
+	margin-left: 15%;
+}
+
+#missionContent>p[identifier="title"]{
+	font-size: 2.2vw;
+	color: #f2f2f2;
+	letter-spacing: .8px;
+	line-height: 1.4;
+	padding-bottom: 3vh;
+}
+
+#missionContent>p[identifier="text"]{
+	font-size: 1.46vw;
+	font-style: italic;
+	color: #fff;
+	letter-spacing: .8px;
+	line-height: 1.4;
+	border-bottom: 2.245px dotted #fff;
+	padding-top: 6vh;
+	padding-bottom: 6vh;
+}
+
+#founderContent{
+	max-width: 80%;
+	margin-top: 8vh;
+	margin-left: 10%;
+}
+
+#founderContent>p[identifier="note"]{
+	font-size: 1.06vw;
+	color: #fff;
+	line-height: 1.8;
+	letter-spacing: .8px;
+}
+
+#founderContent>a[identifier="meetFounder"]{
+	font-size: 1.03vw;
+	color: #000;
+	top: 7vh;
+}
+
+/* career */
+#careerCon{
+	background: linear-gradient(180deg, #27282c 1%, rgba(65, 66, 67, 0.445) 45%, #27282c), url("../../images/about/workDesk.jpeg");
+	background-size: cover;
+	background-position: center;
+    min-height: 100vh;
+}
+
+#careerContent{
+	max-width: 70%;
+	margin-top: 25vh;
+	margin-left: 15%;
+}
+
+#careerContent>p[identifier="title"]{
+	font-size: 2.2vw;
+	color: #f2f2f2;
+	letter-spacing: .8px;
+	line-height: 1.4;
+	padding-bottom: 3vh;
+}
+
+#careerContent>p[identifier="text"]{
+	font-size: 1.47vw;
+	font-style: italic;
+	color: #fff;
+	letter-spacing: .8px;
+	line-height: 1.4;
+	border-bottom: 2.245px dotted #fff;
+	padding-top: 6vh;
+	padding-bottom: 6vh;
+}
+
+#careerContent>a[identifier="goCareer"]{
+	font-size: 1.03vw;
+	color: #000;
+	top: 7vh;
+}

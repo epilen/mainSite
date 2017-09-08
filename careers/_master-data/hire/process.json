@@ -1,0 +1,134 @@
+{"hireProcess":[
+    {
+        "code": "FT101",
+        "processName": "Sign Up",
+		"process": "Join Epilen Talent",
+		"processSummary": "Sign up to Join Epilen Talent Network."
+    },
+	{
+		"code": "FT101",
+        "processName": "Application",
+		"process": "Read Job Profile",
+		"processSummary": "Know more about the position and relevant job details."
+	},
+	{
+		"code": "FT101",
+        "processName": "Application",
+		"process": "Fill out the Resume",
+		"processSummary": "Fill out out your Resume fully and accurately."
+	},
+	{
+		"code": "FT101",
+        "processName": "Application Screening",
+		"process": "Stage 1 Screening",
+		"processSummary": "The first stage is the initial review stage - making sure that the candidate has a targeted application for the job in question, must have relevant experiences, must reveal that the candidate absolutely loves their work, and the candidate should be able to work in the stressful environment."
+	},
+	{
+		"code": "FT101",
+        "processName": "Application Screening",
+		"process": "Code Screen Interview",
+		"processSummary": "If a candidate has scored a minimum cut-off, they are moved on to a 30-minute code screen. The code screen interview is an \"easy\" stage in the interview process. This is to see whether candidates can provide a solution quickly and efficiently or not."
+	},
+	{
+		"code": "FT101",
+        "processName": "Application Screening",
+		"process": "Smart Interview",
+		"processSummary": "The smart interview is an in-depth algorithmic question. This interview is supposed to be challenging, but at the same time, it's conversational. At Epilen, it is important to hear the candidate's thought process and understand how they've arrived at the resolution—it's not just about the destination; the journey is significant, too. By asking them to walk through the process out loud, the Epilen Talent team can see if the candidate embodies the thinking skills and characteristics that are needed in the role."
+	},
+	{
+		"code": "FT101",
+        "processName": "Application Screening",
+		"process": "Get things done Interview",
+		"processSummary": "If the candidate passes the smart interview stage, they then partake in the \"get things done\" interview. Here, the candidate designs an entire application or completes the given assignment."
+	},
+	{
+		"code": "FT101",
+        "processName": "Application Screening",
+		"process": "Telephonic Screening",
+		"processSummary": "Upon successful completion of Get things done Interview, the candidates are invited to attend a Telephonic Conference Call connected via Bridge. The candidate's performance are accessed during the call by asking them relevant profile questions."
+	},
+	{
+		"code": "FT101",
+        "processName": "Application Screening",
+		"process": "In-person meeting",
+		"processSummary": "So, the candidate has now gone through five technical interview stages, providing Epilen with a clear indication of the candidate's suitability for the role. Following the technical screenings, the candidate also meets with a member of the Epilen team so that the candidate can be familiarized with the goals of the business as a whole. Epilen sees this meeting as a great opportunity to provide a comprehensive understanding of the company. Since ultimately the engineer will be building out certain products for users, it's important for everyone to not only be aligned in the process but to also gain insight into what makes users happy."
+	},
+	{
+		"code": "FT101",
+        "processName": "Employment Offer",
+		"process": "Introductory Offer Letter",
+		"processSummary": "Now the candidate has cleared all screening processes; they receive an Introductory Offer Letter from Epilen that sets forth their employment details along with compensation and joining Information."
+	},
+	{
+		"code": "FT101",
+        "processName": "Employment Offer",
+		"process": "Offer Terms",
+		"processSummary": "Candidates need to sign the Offer Terms electronically along with Introductory Offer Letter. Offer Terms set forth the condition of employment with Epilen."
+	},
+	{
+		"code": "FT101",
+        "processName": "New Employment Paperwork Summary",
+		"process": "Employment Agreement",
+		"processSummary": "Agreement specific to Employment with Epilen."
+	},
+	{
+		"code": "FT101",
+        "processName": "New Employment Paperwork Summary",
+		"process": "Non-disclosure Agreement",
+		"processSummary": "Agreement specific to Non-disclosure of assets and intellectual property."
+	},
+	{
+		"code": "FT101",
+        "processName": "New Employment Paperwork Summary",
+		"process": "Zero-knowledge policy Agreement",
+		"processSummary": "Agreement policy refers to confidential and trade secret information."
+	},
+	{
+		"code": "FT101",
+        "processName": "New Employment Paperwork Summary",
+		"process": "Developer's Agreement",
+		"processSummary": "Agreement for Software Engineers and Designers."
+	},
+	{
+		"code": "FT101",
+        "processName": "New Employment Paperwork Summary",
+		"process": "Working policy Agreement",
+		"processSummary": "Agreement policy refers to Working rules and regulations."
+	},
+	{
+		"code": "FT101",
+        "processName": "New Employment Paperwork Summary",
+		"process": "Eligibility verification",
+		"processSummary": "Candidates need to fill and submit information specific to working eligibility at Epilen."
+	},
+	{
+		"code": "FT101",
+        "processName": "New Employment Paperwork Summary",
+		"process": "Invention assignment form",
+		"processSummary": "Form for submission of previous Inventions and Copyright/Patent details."
+	},
+	{
+		"code": "FT101",
+        "processName": "New Employment Paperwork Summary",
+		"process": "Code of Conduct",
+		"processSummary": "The form needs to filled and submit electronically by your previous employer/institute/organization."
+	},
+	{
+		"code": "FT101",
+        "processName": "New Employment Paperwork Summary",
+		"process": "Orientation Certification",
+		"processSummary": "Certificate issued by Epilen for New Employees."
+	},
+	{
+		"code": "FT101",
+        "processName": "New Employment Paperwork Summary",
+		"process": "Benefits form",
+		"processSummary": "Benfits and Compensation from Epilen during your employment tenure."
+	},
+	{
+		"code": "FT101",
+        "processName": "New Employment Paperwork Summary",
+		"process": "Medical form",
+		"processSummary": "Candidates need to fill the basic Medical form electronically by providing important medical information."
+	}
+]}

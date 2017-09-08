@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+/*
+	CSS for common elements
+*/
+
+/* Page Scroll-bar */
+.pageScroll::-webkit-scrollbar-track {
+  background: #FFF;
+  width: 0;
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.pageScroll::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+  
+}
+
+.pageScroll::-webkit-scrollbar-thumb {
+  background: #bbb;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* menu */
+#relationsMenuRow{
+	min-height: 70px;
+	width: 100%;
+	top: 0;
+	padding: 10px 10px 7px 10px;
+	text-shadow: 0 0 15px rgba(0, 0, 0, 0.6), 0 -1px -1px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 px 6px rgba(0,0,0,.1) !important;
+	margin-top: 1%;
+}
+
+#relationsMenuCol>a{
+	color: inherit;
+	top: 2px;
+}
+
+#relationsMenuCol>a>img[identifier="logo"]{
+	height: 56px;
+	width: auto;
+}
+
+#relationsMenuLink{
+	margin-top: 0;
+}
+
+#relationsMenuLink>p{
+	font-size: 1.5rem;
+	color: #fff;
+	margin-right: 24px;
+}
+
+#relationsMenuLink>p[type="link"]{
+	top: 2px;
+}
+
+#relationsMenuLink>p[identifier="highlightMenu"]{
+	margin-right: 18px;
+	border-color: #f2f2f2;
+	background: #fff;
+	border-width: 1px;
+	border-style: solid;
+	padding: 2px 6px !important;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-ms-border-radius: 4px;
+}
+
+#relationsMenuLink>p[identifier="highlightMenu"]>a{
+	font-size: 1.245rem;
+	color: #000;
+}
+
+/* footer.php */
+#footerCon{
+	background: #F6F6F6;
+}
+
+#footerConCo{
+	background: #F6F6F6;
+}
+
+#footerView{
+	width: 80%;
+	min-height: 50vh;
+	margin-left: 10%;
+	margin-top: 4vh;
+}
+
+#footerLink{
+	padding-top: 1.5%;
+}
+
+#footerLinkLogoCo>a>img[identifier="logoSymbol"]{
+	height: 40px;
+	width: auto;
+}
+
+#footerLinkGeneral{
+	padding-top: .2%;
+	margin-left: 2%;
+}
+
+#footerLinkGeneral>a{
+	font-size: 1.5rem;
+	color: #545454;
+}
+
+#footerLinkGeneral>a[identifier="epilenHome"]{
+	padding-left: 26px;
+}
+
+#footerLinkContact{
+	padding-top: .9558%;
+	margin-left: 7%;
+}
+
+#footerLinkContact>p>span[identifier="icon"]{
+	font-size: 2.2rem;
+	color: #545454;
+}
+
+#footerLinkContact>p>span[identifier="text"]{
+	font-size: 1.5rem;
+	color: #545454;
+	left: 5%;
+	top: -6px;
+}
+
+#footerNote{
+	margin-top: 5%;
+}
+
+#footerNote>p{
+	font-size: 1.114554rem;
+	color: #888B8D;
+	margin-bottom: .8%;
+}

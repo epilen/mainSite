@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+/*
+	Responsive CSS for Relations Index
+*/
+
+/* MD */
+@media (min-width: 992px) and (max-width: 1200px) and (orientation:landscape) {
+	
+	/* home */
+	#relationsHomeContentCol{
+		margin-top: 36vh;
+	}
+
+	#relationsHomeContentBlock{
+		padding: 40px;
+    	padding-top: 30px;
+	}
+
+	#relationsHomeContentBlock>p[identifier="title"]{
+		font-size: 2.8rem;
+	}
+	
+	/* intro */
+	#introContainer{
+		padding-bottom: 13vh;
+	}
+	
+	#introContent{
+		margin-top: 27vh;
+	}
+
+	.introTitle{
+		font-size: 3.05rem;
+		line-height: 1.34545;
+		padding-bottom: 6vh;
+	}
+
+	.introDesc{
+		font-size: 1.5rem;
+	}
+	
+	/* state.php */
+	#stateContent{
+		margin-top: 18vh;
+	}
+
+	#stateContent>p[identifier="title"]{
+		font-size: 3.05rem;
+		line-height: 1.34545;
+		padding-bottom: 4vh;
+	}
+
+	#stateContent>p[identifier="text"]{
+		font-size: 1.5rem;
+	}
+	
+	/* solution */
+	#solContainer{
+		padding-bottom: 17vh;
+	}
+
+	#solContent{
+		margin-top: 18vh;
+	}
+
+	.solTitle{
+		font-size: 2.8rem;
+		line-height: 1.364;
+		padding-bottom: 5vh;
+	}
+
+	.solDesc{
+		font-size: 1.4rem;
+		line-height: 1.6;
+	}
+	
+	/* step */
+	#stepContent>p[identifier="title"]{
+		font-size: 3.05rem;
+		line-height: 1.3;
+	}
+
+	#stepContent>p[identifier="text"]{
+		font-size: 1.4rem;
+	}
+
+	.stepPoint{
+		margin-top: 6vh;
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.stepPoint.next{
+		padding-top: 1vh;
+	}
+
+	.stepBullet{
+		font-size: 2.645rem;
+	}
+
+	.stepPointTxt{
+		font-size: 1.35rem;
+	}
+	
+	/* way */
+	#wayCo{
+		padding-top: 14vh;
+		padding-bottom: 14vh;
+	}
+
+	#wayHead>p[type="title"]{
+		font-size: 3.8rem;
+	}
+
+	#wayHead>p[type="desc"]{
+		font-size: 1.3rem;
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	#wayBlock{
+		margin-top: 12vh;
+	}
+
+	.wayBlockBoxLt{
+		height: 400px;
+	}
+
+	.wayBlockBoxLtLayer{
+		min-height: 400px;
+	}
+
+	.wayBlockBoxRt{
+		height: 400px;
+	}
+
+	.wayBlockContent{
+		padding-top: 30vh;
+	}
+
+	.wayBlockContentTitle{
+		font-size: 2.2rem;
+	}
+
+	.wayBlockContentDesc{
+		font-size: 1.4rem;
+		padding-top: 2vh;
+	}
+	
+}
+
+/* SM */
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	/* home */
+	#relationsHomeContentCol{
+		margin-top: 36vh;
+	}
+
+	#relationsHomeContentBlock{
+		padding: 36px;
+    	padding-top: 26px;
+	}
+
+	#relationsHomeContentBlock>p[identifier="title"]{
+		font-size: 2.4rem;
+	}
+	
+	/* intro */
+	#introContainer{
+		padding-bottom: 13vh;
+	}
+	
+	#introContent{
+		margin-top: 28.5vh;
+	}
+
+	.introTitle{
+		font-size: 2.75rem;
+		line-height: 1.34545;
+		padding-bottom: 6vh;
+	}
+
+	.introDesc{
+		font-size: 1.47rem;
+	}
+	
+	/* state.php */
+	#stateContent{
+		margin-top: 22vh;
+		max-width: 90%;
+		margin-left: 5%;
+	}
+
+	#stateContent>p[identifier="title"]{
+		font-size: 2.45rem;
+		line-height: 1.34545;
+		padding-bottom: 4vh;
+	}
+
+	#stateContent>p[identifier="text"]{
+		font-size: 1.4rem;
+		line-height: 1.6;
+	}
+	
+	/* solution */
+	#solContainer{
+		padding-bottom: 17vh;
+	}
+
+	#solContent{
+		margin-top: 18vh;
+	}
+
+	.solTitle{
+		font-size: 2.5rem;
+		line-height: 1.364;
+		padding-bottom: 5vh;
+	}
+
+	.solDesc{
+		font-size: 1.28rem;
+		line-height: 1.6;
+	}
+	
+	/* step */
+	#stepContent>p[identifier="title"]{
+		font-size: 2.65rem;
+		line-height: 1.3;
+	}
+
+	#stepContent>p[identifier="text"]{
+		font-size: 1.28rem;
+	}
+
+	.stepPoint{
+		margin-top: 6vh;
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.stepPoint.next{
+		padding-top: 1vh;
+	}
+
+	.stepBullet{
+		font-size: 2.445rem;
+	}
+
+	.stepPointTxt{
+		font-size: 1.25rem;
+	}
+	
+	/* way */
+	#wayCo{
+		padding-top: 14vh;
+		padding-bottom: 14vh;
+	}
+
+	#wayHead>p[type="title"]{
+		font-size: 3.5rem;
+	}
+
+	#wayHead>p[type="desc"]{
+		font-size: 1.25rem;
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	#wayBlock{
+		margin-top: 12vh;
+	}
+
+	.wayBlockBoxLt{
+		height: 400px;
+	}
+
+	.wayBlockBoxLtLayer{
+		min-height: 400px;
+	}
+
+	.wayBlockBoxRt{
+		height: 400px;
+	}
+
+	.wayBlockContent{
+		padding-top: 40vh;
+	}
+
+	.wayBlockContentTitle{
+		font-size: 2.0rem;
+	}
+
+	.wayBlockContentDesc{
+		font-size: 1.3rem;
+		padding-top: 2vh;
+	}
+	
+}

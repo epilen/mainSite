@@ -1,0 +1,599 @@
+@charset "utf-8";
+
+/*
+	Career Page CSS for MD/SM/XS Screens
+*/
+
+@media (min-width: 992px) and (max-width: 1200px) and (orientation:landscape) {
+	
+	/* home */
+	#talentHomeContentCo>p[identifier="title"]{
+		font-size: 3.4vw;
+	}
+	
+	/* tag */
+	#tagContent{
+		max-width: 80%;
+		margin-top: 16vh;
+		margin-left: 10%;
+	}
+	
+	#tagContent>p[identifier="title"]{
+		font-size: 2.4vw;
+		line-height: 1.35;
+	}
+	
+	#tagContent>p[identifier="text"]{
+		font-size: 1.27vw;
+		line-height: 1.78;
+		padding-top: 2vh;
+	}
+	
+	#tagPointContent>p[identifier="title"]{
+		font-size: 1.97vw;
+	}
+	
+	#tagPointContent>p[identifier="desc"]{
+		font-size: 1.22vw;
+	}
+	
+	#tagPointVisual>span[identifier="icon"]{
+		font-size: 11.7vw;
+	}
+	
+	/* note */
+	#noteContent{
+		max-width: 85%;
+		margin-top: 12vh;
+		margin-left: 7.5%;
+	}
+	
+	.noteTitle{
+		font-size: 3.25vw;
+	}
+	
+	.noteDesc{
+		font-size: 1.25vw;
+	}
+	
+	#applyNoteContent{
+		max-width: 85%;
+		margin-left: 7.5%;
+	}
+	
+	.applyNoteTitle{
+		font-size: 2.0vw;
+		padding-bottom: 1.5vh;
+	}
+	
+	#applyNoteBulletCircle{
+		width: 27px;
+		height: 27px;
+	}
+	
+	#applyNoteBulletCircle>span[identifier="num"]{
+		font-size: 1.2vw;
+		left: 1vw;
+		top: 0.3vh;
+	}
+	
+	#applyNoteBulletCircle>span[identifier="num"].twoDigit{
+		left: 0.605vw;
+	}
+	
+	#applyNoteBulletTextCo>p[identifier="text"]{
+		font-size: 1.34vw;
+		padding-top: 0.15vh;
+	}
+	
+	/* opening */
+	#openingHeadCo>p[identifier="title"]{
+		font-size: 1.65vw;
+		line-height: 1.445;
+	}
+	
+	#openingInfoPanelView>p[identifier="text"]{
+		font-size: 1.4vw;
+	}
+	
+	.openingStatusText{
+		font-size: 1.15vw;
+	}
+	
+	.jobName{
+		font-size: 1.14vw;
+	}
+	
+	.jobDept{
+		font-size: 1.0vw;
+	}
+	
+	.jobExplore{
+		font-size: 2.5vh;
+	}
+	
+	.openingNoInternText{
+		font-size: 1.18vw;
+		line-height: 1.38;
+	}
+	
+	#backAllJob>p[identifier="text"]>span[identifier="icon"]{
+		font-size: 2.5vh;
+	}
+	
+	#backAllJob>p[identifier="text"]>span[identifier="link"]{
+		font-size: 1.0vw;
+	}
+	
+	.jTitle{
+		font-size: 1.2vw;
+	}
+	
+	.jInfo{
+		font-size: 1.178vw;
+		line-height: 1.675445;
+		padding-bottom: 2.45vh;
+	}
+	
+	#jobPositionApply{
+		font-size: 1.304vh;
+	}
+	
+	/* working */
+	#cultureHead>p[type="title"]{
+		font-size: 3.0vw;
+	}
+	
+	#cultureHead>p[type="desc"]{
+		font-size: 1.2vw;
+	}
+	
+	.cultureBlockBoxLt{
+		height: 410px;
+	}
+	
+	.cultureBlockBoxRt{
+		height: 200px;
+	}
+	
+	#jobAlertCo{
+		height: 24.5vh;
+	}
+	
+	#jobAlertContentCo>p[type="title"]{
+		height: 1.55vw;
+	}
+	
+	#jobAlertContentCo>p[type="desc"]{
+		font-size: 1.02vw;
+		padding-top: 2.5vh;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	/* home */
+	#talentHomeContentCo>p[identifier="title"]{
+		font-size: 3.545vw;
+	}
+	
+	/* tag */
+	#tagContent{
+		max-width: 80%;
+		margin-top: 16vh;
+		margin-left: 10%;
+	}
+	
+	#tagContent>p[identifier="title"]{
+		font-size: 2.2vw;
+		line-height: 1.35;
+	}
+	
+	#tagContent>p[identifier="text"]{
+		font-size: 1.24vw;
+		line-height: 1.78;
+		padding-top: 2vh;
+	}
+	
+	#tagPointContent>p[identifier="title"]{
+		font-size: 1.85vw;
+	}
+	
+	#tagPointContent>p[identifier="desc"]{
+		font-size: 1.24vw;
+	}
+	
+	#tagPointVisual>span[identifier="icon"]{
+		font-size: 12.0vw;
+	}
+	
+	/* note */
+	#noteContent{
+		max-width: 85%;
+		margin-top: 12vh;
+		margin-left: 7.5%;
+	}
+	
+	.noteTitle{
+		font-size: 3.0vw;
+	}
+	
+	.noteDesc{
+		font-size: 1.28vw;
+	}
+	
+	#applyNoteContent{
+		max-width: 76%;
+		margin-left: 12%;
+	}
+	
+	.applyNoteTitle{
+		font-size: 1.9vw;
+		padding-bottom: 2.5vh;
+	}
+	
+	#applyNoteBulletCircle{
+		width: 25px;
+		height: 25px;
+	}
+	
+	#applyNoteBulletCircle>span[identifier="num"]{
+		font-size: 1.2vw;
+		left: 1vw;
+		top: 0.3vh;
+	}
+	
+	#applyNoteBulletCircle>span[identifier="num"].twoDigit{
+		left: 0.605vw;
+	}
+	
+	#applyNoteBulletTextCo>p[identifier="text"]{
+		font-size: 1.325vw;
+		padding-top: 0.15vh;
+	}
+	
+	/* opening */
+	#openingHeadCo>p[identifier="title"]{
+		font-size: 1.5vw;
+		line-height: 1.445;
+	}
+	
+	#openingInfoPanelView>p[identifier="text"]{
+		font-size: 1.358vw;
+	}
+	
+	.openingStatusText{
+		font-size: 1.2vw;
+	}
+	
+	.jobName{
+		font-size: 1.1vw;
+	}
+	
+	.jobDept{
+		font-size: 1.07vw;
+	}
+	
+	.jobExplore{
+		font-size: 2.0vw;
+	}
+	
+	.openingNoInternText{
+		font-size: 1.13vw;
+		line-height: 1.38;
+	}
+	
+	#backAllJob>p[identifier="text"]>span[identifier="icon"]{
+		font-size: 2.0vw;
+	}
+	
+	#backAllJob>p[identifier="text"]>span[identifier="link"]{
+		font-size: 1.0vw;
+	}
+	
+	.jTitle{
+		font-size: 1.2vw;
+	}
+	
+	.jInfo{
+		font-size: 1.178vw;
+		line-height: 1.675445;
+		padding-bottom: 2.45vh;
+	}
+	
+	#jobPositionApply{
+		font-size: 1.0vw;
+	}
+	
+	/* working */
+	#cultureHead>p[type="title"]{
+		font-size: 2.9vw;
+	}
+	
+	#cultureHead>p[type="desc"]{
+		font-size: 1.27vw;
+	}
+	
+	.cultureBlockBoxLt{
+		height: 380px;
+	}
+	
+	.cultureBlockBoxRt{
+		height: 185px;
+	}
+	
+	#jobAlertCo{
+		height: 28.5vh;
+	}
+	
+	#jobAlertContentCo>p[type="title"]{
+		height: 1.55vw;
+	}
+	
+	#jobAlertContentCo>p[type="desc"]{
+		font-size: 1.2vw;
+		line-height: 1.5;
+		padding-top: 2.5vh;
+	}
+	
+}
+
+/* XS Screens */
+@media screen and (max-width: 768px) {
+	
+	/* home */
+	#talentHomeContentCo>p[identifier="title"]{
+		font-size: 3.665rem;
+		line-height: 1.25;
+		width: 90%;
+		margin-left: 5%;
+	}
+	
+	/* tag */
+	#tagContent{
+		max-width: 90%;
+		margin-top: 16vh;
+		margin-left: 5%;
+	}
+	
+	#tagContent>p{
+		text-align: left;
+	}
+	
+	#tagContent>p[identifier="title"]{
+		font-size: 2.76rem;
+		line-height: 1.305;
+		padding-bottom: 3vh;
+	}
+	
+	#tagPointContent>p{
+		max-width: 90%;
+		margin-left: 5%;
+	}
+	
+	#tagContent>p[identifier="text"]{
+		font-size: 1.15rem;
+		padding-bottom: 4vh;
+	}
+	
+	#tagPointContent>p[identifier="title"]{
+		font-size: 1.7215rem;
+		line-height: 1.245;
+	}
+
+	#tagPointContent>p[identifier="desc"]{
+		font-size: 1.1rem;
+		line-height: 1.7;
+		padding-top: 3vh;
+	}
+
+	#tagPointRo.next{
+		padding-top: 10vh;
+	}
+	
+	#tagPointVisual{
+		float: left !important;
+		margin-left: 5%;
+		margin-top: 3vh;
+	}
+	
+	#tagPointVisual>span[identifier="icon"]{
+		font-size: 10.0rem;
+	}
+	
+	/* note */
+	#noteContent{
+		max-width: 100%;
+		margin-top: 10vh;
+		margin-left: 0;
+	}
+
+	.noteTitle{
+		font-size: 2.76rem;
+		line-height: 1.3;
+		padding-bottom: 5vh;
+	}
+
+	.noteDesc{
+		font-size: 1.105rem;
+	}
+	
+	#applyNoteContent{
+		max-width: 100%;
+		margin-top: 3vh;
+		margin-left: 0;
+	}
+
+	.applyNoteTitle{
+		font-size: 1.794rem;
+		padding-bottom: 3vh;
+	}
+	
+	#applyNoteBulletCircle{
+		width: 26px;
+		height: 26px;
+	}
+
+	#applyNoteBulletCircle>span[identifier="num"]{
+		font-size: 1.0rem;
+    	color: #fff;
+    	left: 2.4vw;
+    	top: 0.8vh;
+	}
+	
+	#applyNoteBulletCircle>span[identifier="num"].twoDigit{
+		left: 1.5vw;
+	}
+	
+	#applyNoteBulletTextCo>p[identifier="text"]{
+		font-size: 1.058rem;
+    	letter-spacing: .05vw;
+		line-height: 1.55;
+	}
+	
+	#applyNoteBulletRo.next{
+		padding-top: 2vh;
+	}
+	
+	/* opening */
+	.openingInfoPanelScroll::-webkit-scrollbar{
+		width: 4px;
+	}
+
+	.openingInfoPanelScroll::-webkit-scrollbar-thumb{
+		-webkit-border-radius: 3px;
+  		-moz-border-radius: 3px;
+		-o-border-radius: 3px;
+		-ms-border-radius: 3px;
+  		border-radius: 3px;
+	}
+	
+	#openingHeadCon{
+		height: 30vh;
+	}
+	
+	#openingHeadCo>p[identifier="title"]{
+		font-size: 1.9rem;
+		padding-top: 10vh;
+	}
+	
+	#openingInfoPanel{
+		height: 80vh;
+	}
+	
+	#openingInfoPanelView>p[identifier="text"]{
+		font-size: 1.0rem;
+		max-width: 95%;
+	}
+	
+	#openingList{
+		margin-top: 4vh;
+	}
+	
+	.openingStatusText{
+		font-size: .9rem;
+		margin-bottom: 2vh;
+	}
+	
+	.jobName{
+		font-size: 1.0rem;
+		line-height: 1.6;
+	}
+
+	.jobDept{
+		font-size: .85rem;
+	}
+
+	.jobExplore{
+		font-size: 1.5rem;
+	}
+	
+	.openingListBorder{
+		padding-top: 1vh;
+		padding-bottom: 1vh;
+	}
+	
+	.openingNoInternText{
+		font-size: .845rem;
+		padding-top: 3.5vh;
+	}
+	
+	#openingCon{
+		height: 92vh;
+	}
+	
+	#jobBriefView{
+		width: 94%;
+	}
+
+	#backAllJob>p[identifier="text"]>span[identifier="icon"]{
+		font-size: 1.5rem;
+	}
+
+	#backAllJob>p[identifier="text"]>span[identifier="link"]{
+		font-size: .89rem;
+		top: -.6vh;
+	}
+	
+	.jTitle{
+		font-size: 1.0rem;
+		padding-bottom: 1vh;
+	}
+
+	.jInfo{
+		font-size: .9rem;
+		line-height: 1.6;
+		padding-bottom: 1.4vh;
+	}
+
+	.jInfoUL{
+		margin-top: 1.45vh;
+		margin-left: -1.6vw;
+	}
+
+	#jobPositionApply{
+		font-size: 1.0rem;
+	}
+	
+	/* culture */
+	#cultureHead>p[type="title"]{
+		font-size: 2.75rem;
+	}
+
+	#cultureHead>p[type="desc"]{
+		font-size: 1.055rem;
+		line-height: 2.0;
+		padding-top: 3vh;
+	}
+	
+	.cultureBlockBoxLt{
+		height: 320px;
+		margin-bottom: 4vh;
+	}
+	
+	.cultureBlockBoxRt{
+		height: 150px;
+		margin-bottom: 4vh;
+	}
+	
+	#jobAlertContentCo>p[type="title"]{
+		font-size: 1.46rem;
+		line-height: 1.345;
+		color: #fff;
+	}
+
+	#jobAlertContentCo>p[type="desc"]{
+		font-size: .94rem;
+		line-height: 1.5;
+		color: #fff;
+		padding-top: 2vh;
+	}
+
+	#jobAlertCTACo>img{
+		width: 100%;
+		margin-top: 10vh;
+		margin-left: -6vw;
+	}	
+	
+}

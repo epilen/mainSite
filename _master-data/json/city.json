@@ -1,0 +1,467 @@
+{"city":[
+        {
+            "name": "Hyderabad",
+			"state": "Andhra Pradesh",
+            "code": "C-1"
+        },
+		{
+            "name": "Visakhapatnam",
+			"state": "Andhra Pradesh",
+            "code": "C-2"
+        },
+		{
+            "name": "Vijayawada",
+			"state": "Andhra Pradesh",
+            "code": "C-3"
+        },
+		{
+            "name": "Warangal",
+			"state": "Andhra Pradesh",
+            "code": "C-4"
+        },
+		{
+            "name": "Itanagar",
+			"state": "Arunachal Pradesh",
+            "code": "C-5"
+        },
+		{
+            "name": "Dispur",
+			"state": "Assam",
+            "code": "C-6"
+        },
+		{
+            "name": "Guwahati",
+			"state": "Assam",
+            "code": "C-7"
+        },
+		{
+            "name": "Tezpur",
+			"state": "Assam",
+            "code": "C-8"
+        },
+		{
+            "name": "Patna",
+			"state": "Bihar",
+            "code": "C-9"
+        },
+		{
+            "name": "Gaya",
+			"state": "Bihar",
+            "code": "C-10"
+        },
+		{
+            "name": "Vaishali",
+			"state": "Bihar",
+            "code": "C-11"
+        },
+		{
+            "name": "Nalanda",
+			"state": "Bihar",
+            "code": "C-12"
+        },
+		{
+            "name": "Muzzafarpur",
+			"state": "Bihar",
+            "code": "C-13"
+        },
+		{
+            "name": "Raipur",
+			"state": "Chattisgarh",
+            "code": "C-14"
+        },
+		{
+            "name": "New Delhi",
+			"state": "Delhi & NCR",
+            "code": "C-15"
+        },
+		{
+            "name": "Gurgaon",
+			"state": "Delhi & NCR",
+            "code": "C-16"
+        },
+		{
+            "name": "Ghaziabad",
+			"state": "Delhi & NCR",
+            "code": "C-17"
+        },
+		{
+            "name": "Faridabad",
+			"state": "Delhi & NCR",
+            "code": "C-18"
+        },
+		{
+            "name": "Noida",
+			"state": "Delhi & NCR",
+            "code": "C-19"
+        },
+		{
+            "name": "Old Goa",
+			"state": "Goa",
+            "code": "C-20"
+        },
+		{
+            "name": "Panjim",
+			"state": "Goa",
+            "code": "C-21"
+        },
+		{
+            "name": "Vasco Da Gama",
+			"state": "Goa",
+            "code": "C-22"
+        },
+		{
+            "name": "Ahmedabad",
+			"state": "Gujarat",
+            "code": "C-23"
+        },
+		{
+            "name": "Gandhinagar",
+			"state": "Gujarat",
+            "code": "C-24"
+        },
+		{
+            "name": "Surat",
+			"state": "Gujarat",
+            "code": "C-25"
+        },
+		{
+            "name": "Vadodara",
+			"state": "Gujarat",
+            "code": "C-26"
+        },
+		{
+            "name": "Chandigarh",
+			"state": "Haryana",
+            "code": "C-27"
+        },
+		{
+            "name": "Faridabad",
+			"state": "Haryana",
+            "code": "C-28"
+        },
+		{
+            "name": "Gurgaon",
+			"state": "Haryana",
+            "code": "C-29"
+        },
+		{
+            "name": "Shimla",
+			"state": "Himachal Pradesh",
+            "code": "C-30"
+        },
+		{
+            "name": "Dharamsala",
+			"state": "Himachal Pradesh",
+            "code": "C-31"
+        },
+		{
+            "name": "Kullu",
+			"state": "Himachal Pradesh",
+            "code": "C-32"
+        },
+		{
+            "name": "Manali",
+			"state": "Himachal Pradesh",
+            "code": "C-33"
+        },
+		{
+            "name": "Jammu",
+			"state": "Jammu & Kashmir",
+            "code": "C-34"
+        },
+		{
+            "name": "Srinagar",
+			"state": "Jammu & Kashmir",
+            "code": "C-35"
+        },
+		{
+            "name": "Gulmarg",
+			"state": "Jammu & Kashmir",
+            "code": "C-36"
+        },
+		{
+            "name": "Pahalgam",
+			"state": "Jammu & Kashmir",
+            "code": "C-37"
+        },
+		{
+            "name": "Leh",
+			"state": "Jammu & Kashmir",
+            "code": "C-38"
+        },
+		{
+            "name": "Ladakh",
+			"state": "Jammu & Kashmir",
+            "code": "C-39"
+        },
+		{
+            "name": "Ranchi",
+			"state": "Jharkhand",
+            "code": "C-40"
+        },
+		{
+            "name": "Dhanbad",
+			"state": "Jharkhand",
+            "code": "C-41"
+        },
+		{
+            "name": "Jamshedpur",
+			"state": "Jharkhand",
+            "code": "C-42"
+        },
+		{
+            "name": "Bangalore",
+			"state": "Karnataka",
+            "code": "C-43"
+        },
+		{
+            "name": "Mysore",
+			"state": "Karnataka",
+            "code": "C-44"
+        },
+		{
+            "name": "Mangalore",
+			"state": "Karnataka",
+            "code": "C-45"
+        },
+		{
+            "name": "Cochin",
+			"state": "Kerala",
+            "code": "C-46"
+        },
+		{
+            "name": "Kozhikode",
+			"state": "Kerala",
+            "code": "C-47"
+        },
+		{
+            "name": "Thiruvananthapuram",
+			"state": "Kerala",
+            "code": "C-48"
+        },
+		{
+            "name": "Bhopal",
+			"state": "Madhya Pradesh",
+            "code": "C-49"
+        },
+		{
+            "name": "Gwalior",
+			"state": "Madhya Pradesh",
+            "code": "C-50"
+        },
+		{
+            "name": "Indore",
+			"state": "Madhya Pradesh",
+            "code": "C-51"
+        },
+		{
+            "name": "Mumbai",
+			"state": "Maharashtra",
+            "code": "C-52"
+        },
+		{
+            "name": "Pune",
+			"state": "Maharashtra",
+            "code": "C-53"
+        },
+		{
+            "name": "Nagpur",
+			"state": "Maharashtra",
+            "code": "C-54"
+        },
+		{
+            "name": "Imphal",
+			"state": "Manipur",
+            "code": "C-55"
+        },
+		{
+            "name": "Shillong",
+			"state": "Meghalaya",
+            "code": "C-56"
+        },
+		{
+            "name": "Aizawal",
+			"state": "Mizoram",
+            "code": "C-57"
+        },
+		{
+            "name": "Kohima",
+			"state": "Nagaland",
+            "code": "C-58"
+        },
+		{
+            "name": "Bhubaneswar",
+			"state": "Odisha",
+            "code": "C-59"
+        },
+		{
+            "name": "Puri",
+			"state": "Odisha",
+            "code": "C-60"
+        },
+		{
+            "name": "Cuttack",
+			"state": "Odisha",
+            "code": "C-61"
+        },
+		{
+            "name": "Amritsar",
+			"state": "Punjab",
+            "code": "C-62"
+        },
+		{
+            "name": "Ludhiana",
+			"state": "Punjab",
+            "code": "C-63"
+        },
+		{
+            "name": "Chandigarh",
+			"state": "Punjab",
+            "code": "C-64"
+        },
+		{
+            "name": "Jaipur",
+			"state": "Rajasthan",
+            "code": "C-65"
+        },
+		{
+            "name": "Udaipur",
+			"state": "Rajasthan",
+            "code": "C-66"
+        },
+		{
+            "name": "Ajmer",
+			"state": "Rajasthan",
+            "code": "C-67"
+        },
+		{
+            "name": "Alwar",
+			"state": "Rajasthan",
+            "code": "C-68"
+        },
+		{
+            "name": "Bikaner",
+			"state": "Rajasthan",
+            "code": "C-69"
+        },
+		{
+            "name": "Jodhpur",
+			"state": "Rajasthan",
+            "code": "C-70"
+        },
+		{
+            "name": "Jaisalmer",
+			"state": "Rajasthan",
+            "code": "C-71"
+        },
+		{
+            "name": "Gangtok",
+			"state": "Sikkim",
+            "code": "C-72"
+        },
+		{
+            "name": "Chennai",
+			"state": "Tamil Nadu",
+            "code": "C-73"
+        },
+		{
+            "name": "Coimbatore",
+			"state": "Tamil Nadu",
+            "code": "C-74"
+        },
+		{
+            "name": "Madurai",
+			"state": "Tamil Nadu",
+            "code": "C-75"
+        },
+		{
+            "name": "Ooty",
+			"state": "Tamil Nadu",
+            "code": "C-76"
+        },
+		{
+            "name": "Trichy",
+			"state": "Tamil Nadu",
+            "code": "C-77"
+        },
+		{
+            "name": "Agartala",
+			"state": "Tripura",
+            "code": "C-78"
+        },
+		{
+            "name": "Dehradun",
+			"state": "Uttarakhand",
+            "code": "C-79"
+        },
+		{
+            "name": "Roorkee",
+			"state": "Uttarakhand",
+            "code": "C-80"
+        },
+		{
+            "name": "Haridwar",
+			"state": "Uttarakhand",
+            "code": "C-81"
+        },
+		{
+            "name": "Nainital",
+			"state": "Uttarakhand",
+            "code": "C-82"
+        },
+		{
+            "name": "Agra",
+			"state": "Uttar Pradesh",
+            "code": "C-83"
+        },
+		{
+            "name": "Lucknow",
+			"state": "Uttar Pradesh",
+            "code": "C-84"
+        },
+		{
+            "name": "Varanasi",
+			"state": "Uttar Pradesh",
+            "code": "C-85"
+        },
+		{
+            "name": "Allahabad",
+			"state": "Uttar Pradesh",
+            "code": "C-86"
+        },
+		{
+            "name": "Kanpur",
+			"state": "Uttar Pradesh",
+            "code": "C-87"
+        },
+		{
+            "name": "Kolkata",
+			"state": "West Bengal",
+            "code": "C-88"
+        },
+		{
+            "name": "Durgapur",
+			"state": "West Bengal",
+            "code": "C-89"
+        },
+		{
+            "name": "Asansol",
+			"state": "West Bengal",
+            "code": "C-90"
+        },
+		{
+            "name": "Kharagpur",
+			"state": "West Bengal",
+            "code": "C-91"
+        },
+		{
+            "name": "Darjeeling",
+			"state": "West Bengal",
+            "code": "C-92"
+        },
+		{
+            "name": "Burdwan",
+			"state": "West Bengal",
+            "code": "C-93"
+        }
+]}

@@ -1,0 +1,488 @@
+@charset "utf-8";
+
+/*
+	Doctor's Page - MD, SM & XS Screens
+*/
+
+@media (min-width: 992px) and (max-width: 1200px) and (orientation:landscape) {
+	
+	/* home */
+	#hosHomeContent>p[identifier="title"]{
+		font-size: 2.445rem;
+		line-height: 1.45;
+	}
+
+	#hosHomeContent>a[identifier="hosJoinCTA"]{
+		font-size: 1.5rem;
+		top: 4vh;
+	}
+	
+	/* overview */
+	#ovContent{
+		margin-top: 16vh;
+	}
+	
+	#ovContent>p[type="head"]{
+		font-size: 1.7rem;
+	}
+	
+	#ovContent>p[type="txt"]{
+		font-size: 1.4rem;
+	}
+	
+	#ovContent>p[type="subHead"]{
+		line-height: 1.65;
+		margin-top: 8vh;
+	}
+
+	#ovContent>p[type="subHead"]>span[type="icon"]{
+		font-size: 1.3rem;
+		top: 1px;
+	}
+
+	#ovContent>p[type="subHead"]>span[type="txt"]{
+		font-size: 1.1rem;
+	}
+	
+	/* solution */
+	#solContent>p[identifier="title"]{
+		font-size: 1.8rem;
+	}
+
+	#solContent>p[identifier="subTxt"]{
+		font-size: 1.245rem;
+	}
+
+	#solCTA{
+		font-size: 1.15rem;
+	}
+	
+	/* highlight */
+	#highlightContent>p[type="head"]{
+		font-size: 2.0rem;
+		line-height: 1.535;
+	}
+
+	#highlightContent>p[type="txt"]{
+		font-size: 1.5rem;
+	}
+
+	#highlightContent>p[type="subHead"]{
+		font-size: 2.0rem;
+	}
+	
+	/* experience */
+	#experienceContent{
+		margin-top: 15vh;
+	}
+	
+	#experiencePointContent>span{
+		font-size: 2.5vw;
+	}
+	
+	#experiencePointContent>p{
+		font-size: .98vw;
+	}
+	
+	/* joinModal */
+	#joinModalVisualContent>div[id="header"]>p[identifier="title"]{
+		font-size: 1.6rem;
+		padding-bottom: 8px;
+	}
+
+	#joinModalVisualContent>div[id="bullet"]>p[identifier="title"]>span[identifier="icon"]{
+		font-size: 1.2rem;
+	}
+
+	#joinModalVisualContent>div[id="bullet"]>p[identifier="title"]>span[identifier="text"]{
+		font-size: 1.2rem;
+	}
+
+	#joinModalActionForm{
+		width: 86%;
+		margin-top: 6vh;
+		margin-left: 7%;
+	}
+
+	#joinModalActionForm>p{
+		font-size: 1.3rem;
+	}
+
+	#joinForm{
+		margin-top: 3vh;
+	}
+
+	.fgLabel{
+		font-size: 1.2rem;
+	}
+
+	.fgInput{
+		font-size: 1.2rem !important;
+	}
+
+	.fgSelect{
+		font-size: 1.2rem !important;
+	}
+
+	#joinCTA{
+		font-size: 1.0rem;
+    	top: 1.6vh;
+	}
+
+	#joinResultContent>img[type="img"]{
+		width: 8%;
+		height: auto;
+	}
+
+	#joinResultContentPanel{
+		padding-top: 2vh;
+	}
+
+	#joinResultContentPanel>p[type="head"]{
+		font-size: 1.6rem;
+	}
+
+	#joinResultContentPanel>p[type="note"]{
+		font-size: 1.3rem;
+		line-height: 1.56;
+		padding-top: 2vh;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	/* home */
+	#hosHomeContent>p[identifier="title"]{
+		font-size: 2.0rem;
+		line-height: 1.45;
+	}
+
+	#hosHomeContent>a[identifier="hosJoinCTA"]{
+		font-size: 1.3rem;
+		top: 4vh;
+	}
+	
+	/* overview */
+	#ovContent{
+		margin-top: 14vh;
+	}
+	
+	#ovContent>p[type="head"]{
+		font-size: 1.5rem;
+	}
+	
+	#ovContent>p[type="txt"]{
+		font-size: 1.3rem;
+	}
+	
+	#ovContent>p[type="subHead"]{
+		line-height: 1.65;
+		margin-top: 8vh;
+	}
+
+	#ovContent>p[type="subHead"]>span[type="icon"]{
+		font-size: 1.1rem;
+		top: 1px;
+	}
+
+	#ovContent>p[type="subHead"]>span[type="txt"]{
+		font-size: 1.1rem;
+	}
+	
+	/* solution */
+	#solContent>p[identifier="title"]{
+		font-size: 1.9rem;
+	}
+
+	#solContent>p[identifier="subTxt"]{
+		font-size: 1.28rem;
+	}
+
+	#solCTA{
+		font-size: 1.25rem;
+	}
+	
+	/* highlight */
+	#highlightContent>p[type="head"]{
+		font-size: 1.6rem;
+		line-height: 1.535;
+	}
+
+	#highlightContent>p[type="txt"]{
+		font-size: 1.3rem;
+	}
+
+	#highlightContent>p[type="subHead"]{
+		font-size: 1.8rem;
+	}
+	
+	/* experience */
+	#experienceContent{
+		margin-top: 15vh;
+	}
+	
+	#experiencePointContent>span{
+		font-size: 2.5vw;
+	}
+	
+	#experiencePointContent>p{
+		font-size: .98vw;
+	}
+	
+	/* joinModal */
+	#joinModalVisualContent>div[id="header"]>p[identifier="title"]{
+		font-size: 1.6rem;
+		padding-bottom: 8px;
+	}
+
+	#joinModalVisualContent>div[id="bullet"]>p[identifier="title"]>span[identifier="icon"]{
+		font-size: 1.2rem;
+	}
+
+	#joinModalVisualContent>div[id="bullet"]>p[identifier="title"]>span[identifier="text"]{
+		font-size: 1.2rem;
+	}
+
+	#joinModalActionForm{
+		width: 86%;
+		margin-top: 6vh;
+		margin-left: 7%;
+	}
+
+	#joinModalActionForm>p{
+		font-size: 1.3rem;
+	}
+
+	#joinForm{
+		margin-top: 3vh;
+	}
+
+	.fgLabel{
+		font-size: 1.2rem;
+	}
+
+	.fgInput{
+		font-size: 1.2rem !important;
+	}
+
+	.fgSelect{
+		font-size: 1.2rem !important;
+	}
+
+	#joinCTA{
+		font-size: 1.0rem;
+    	top: 1.6vh;
+	}
+
+	#joinResultContent>img[type="img"]{
+		width: 8%;
+		height: auto;
+	}
+
+	#joinResultContentPanel{
+		padding-top: 2vh;
+	}
+
+	#joinResultContentPanel>p[type="head"]{
+		font-size: 1.6rem;
+	}
+
+	#joinResultContentPanel>p[type="note"]{
+		font-size: 1.3rem;
+		line-height: 1.56;
+		padding-top: 2vh;
+	}
+	
+}
+
+/* XS Screen */
+@media screen and (max-width: 768px) {
+	
+	/* home */
+	#hosHomeContent>p[identifier="title"]{
+		font-size: 1.6rem;
+		line-height: 1.45;
+	}
+
+	#hosHomeContent>a[identifier="hosJoinCTA"]{
+		font-size: 1.1rem;
+		top: 4vh;
+	}
+	
+	/* overview */
+	#ovContent{
+		margin-top: 14vh;
+	}
+	
+	#ovContent>p[type="head"]{
+		font-size: 1.5rem;
+	}
+	
+	#ovContent>p[type="txt"]{
+		font-size: 1.3rem;
+	}
+	
+	#ovContent>p[type="subHead"]{
+		line-height: 1.65;
+		margin-top: 8vh;
+	}
+
+	#ovContent>p[type="subHead"]>span[type="icon"]{
+		font-size: 1.0rem;
+		top: 1px;
+	}
+
+	#ovContent>p[type="subHead"]>span[type="txt"]{
+		font-size: 1.0rem;
+	}
+	
+	/* solution */
+	#solContent>p[identifier="title"]{
+		font-size: 1.8rem;
+	}
+
+	#solContent>p[identifier="subTxt"]{
+		font-size: 1.245rem;
+	}
+
+	#solCTA{
+		font-size: 1.15rem;
+	}
+	
+	/* highlight */
+	#highlightCon{
+		min-height: 70vh;
+		padding-bottom: 10vh;
+	}
+	
+	#highlightContent{
+		margin-top: 12vh;
+	}
+	
+	#highlightContent>p{
+		max-width: 96%;
+		margin-left: 2%;
+	}
+	
+	#highlightContent>p[type="head"]{
+		font-size: 1.35rem;
+		line-height: 1.535;
+	}
+
+	#highlightContent>p[type="txt"]{
+		font-size: 1.15rem;
+	}
+
+	#highlightContent>p[type="subHead"]{
+		font-size: 1.4rem;
+	}
+	
+	/* experience */
+	#experienceConCo{
+		background-position-y: 40% !important;
+	}
+	
+	#experienceContent{
+		margin-top: 8vh;
+	}
+	
+	#experienceContent>p[identifier="title"]{
+		font-size: 1.7rem;
+	}
+	
+	#experiencePointContent{
+		margin-top: -3vh;
+		width: 76%;
+		margin-left: 12%;
+	}
+	
+	#experiencePointContent>span{
+		font-size: 2.0rem;
+	}
+
+	#experiencePointContent>p{
+		font-size: 1.0rem;
+		margin-top: 1vh;
+	}
+	
+	/* joinModal */
+	#joinModalDialog{
+		width: 91%;
+		height: 520px;
+	}
+
+	#joinModalBody{
+		margin-top: -4%;
+    	width: 100%;
+	}
+	
+	#joinModalActionCol{
+		width: 100% !important;
+	}
+	
+	#joinModalVisualContent>div[id="header"]>p[identifier="title"]{
+		font-size: 1.6rem;
+		padding-bottom: 8px;
+	}
+
+	#joinModalVisualContent>div[id="bullet"]>p[identifier="title"]>span[identifier="icon"]{
+		font-size: 1.2rem;
+	}
+
+	#joinModalVisualContent>div[id="bullet"]>p[identifier="title"]>span[identifier="text"]{
+		font-size: 1.2rem;
+	}
+
+	#joinModalActionForm{
+		width: 86%;
+		margin-top: 6vh;
+		margin-left: 7%;
+		padding-bottom: 6vh;
+	}
+
+	#joinModalActionForm>p{
+		font-size: 1.3rem;
+	}
+
+	#joinForm{
+		margin-top: 3vh;
+	}
+
+	.fgLabel{
+		font-size: 1.2rem;
+	}
+
+	.fgInput{
+		font-size: 1.2rem !important;
+	}
+
+	.fgSelect{
+		font-size: 1.2rem !important;
+	}
+
+	#joinCTA{
+		font-size: 1.0rem;
+    	top: 1.6vh;
+	}
+
+	#joinResultContent>img[type="img"]{
+		width: 12%;
+		height: auto;
+	}
+
+	#joinResultContentPanel{
+		padding-top: 2vh;
+	}
+
+	#joinResultContentPanel>p[type="head"]{
+		font-size: 1.6rem;
+	}
+
+	#joinResultContentPanel>p[type="note"]{
+		font-size: 1.3rem;
+		line-height: 1.56;
+		padding-top: 2vh;
+	}
+	
+}

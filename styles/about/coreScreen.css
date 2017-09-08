@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+/*
+	About Page MD, SM & XS Screens
+*/
+
+@media (min-width: 992px) and (max-width: 1200px) and (orientation:landscape) {
+	
+	/* home */
+	#aboutBody{
+		overflow-x: hidden;
+	}
+	
+	#aboutContentCo>p[identifier="title"]{
+		font-size: 1.35vw;
+		line-height: 1.885;
+		width: 70%;
+		margin-left: 15%;
+	}
+	
+	#aboutContentCo>span[identifier="arrowDown"]{
+		font-size: 2.945vw;
+	}
+	
+	/* evolution */
+	#evolutionContent{
+		margin-top: 24vh;
+	}
+	
+	#evolutionContent>p[identifier="title"]{
+		font-size: 2.1vw;
+	}
+	
+	#evolutionSummaryContent>p[identifier="text"]{
+		font-size: 1.15vw;
+		line-height: 1.65;
+	}
+	
+	/* mission */
+	#missionContent{
+		margin-top: 12vh;
+	}
+	
+	#missionContent>p[identifier="title"]{
+		font-size: 2.4vw;
+	}
+	
+	#missionContent>p[identifier="text"]{
+		font-size: 1.55vw;
+		padding-top: 4vh;
+	}
+	
+	#founderContent{
+		max-width: 90%;
+		margin-left: 5%;
+	}
+	
+	#founderContent>p[identifier="note"]{
+		font-size: 1.16vw;
+	}
+	
+	#founderContent>a[identifier="meetFounder"]{
+		font-size: 1.18vw;
+	}
+	
+	/* career */
+	#careerCon{
+		min-height: 72vh;
+	}
+	
+	#careerContent{
+		max-width: 80%;
+		margin-top: 14vh;
+		margin-left: 10%;
+	}
+	
+	#careerContent>p[identifier="title"]{
+		font-size: 2.35vw;
+	}
+	
+	#careerContent>p[identifier="text"]{
+		font-size: 1.58vw;
+		line-height: 1.6145;
+		padding-top: 4vh;
+	}
+	
+	#careerContent>a[identifier="goCareer"]{
+		font-size: 1.18vw;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	/* home */
+	#aboutBody{
+		overflow-x: hidden;
+	}
+	
+	#aboutContentCo>p[identifier="title"]{
+		font-size: 1.34vw;
+		line-height: 1.985;
+		width: 70%;
+		margin-left: 15%;
+	}
+	
+	#aboutContentCo>span[identifier="arrowDown"]{
+		font-size: 3.2vw;
+	}
+	
+	/* evolution */
+	#evolutionContent>p[identifier="title"]{
+		font-size: 2.0rem;
+	}
+	
+	#evolutionSummaryContent>p[identifier="text"]{
+		font-size: 1.1845rem;
+		line-height: 1.9345;
+	}
+	
+	/* mission */
+	#missionContent{
+		margin-top: 12vh;
+	}
+	
+	#missionContent>p[identifier="title"]{
+		font-size: 2.4vw;
+	}
+	
+	#missionContent>p[identifier="text"]{
+		font-size: 1.58vw;
+		line-height: 1.7425;
+		padding-top: 2vh;
+	}
+	
+	#founderContent{
+		margin-top: 7vh;
+	}
+	
+	#founderContent>p[identifier="note"]{
+		font-size: 1.2vw;
+		line-height: 1.8345;
+	}
+	
+	#founderContent>a[identifier="meetFounder"]{
+		font-size: 1.2vw;
+		top: 6vh;
+	}
+	
+	/* career */
+	#careerCon{
+		min-height: 72vh;
+	}
+	
+	#careerContent{
+		max-width: 80%;
+		margin-top: 14vh;
+		margin-left: 10%;
+	}
+	
+	#careerContent>p[identifier="title"]{
+		font-size: 2.4vw;
+	}
+	
+	#careerContent>p[identifier="text"]{
+		font-size: 1.6vw;
+		line-height: 1.7425;
+		padding-top: 2vh;
+	}
+	
+	#careerContent>a[identifier="goCareer"]{
+		font-size: 1.2vw;
+		top: 6vh;
+	}
+	
+}
+
+/* XS Screens */
+@media screen and (max-width: 768px) {
+	
+	/* home */
+	#aboutContentCo{
+		margin-top: 32vh;
+	}
+	
+	#aboutContentCo>p[identifier="title"]{
+		font-size: 1.2rem;
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	#aboutContentCo>span[identifier="arrowDown"]{
+		font-size: 3.2rem;
+		top: 22vh;
+	}
+	
+	/* evolution */
+	#evolutionContent{
+		max-width: 84%;
+		margin-top: 18vh;
+		margin-left: 0;
+	}
+	
+	#evolutionContent>p[identifier="title"]{
+		font-size: 1.75rem;
+		padding-bottom: 3vh;
+	}
+	
+	#evolutionSummaryContent>p[identifier="text"]{
+		font-size: 1.2rem;
+	}
+	
+	/* mission */
+	#missionContent{
+		max-width: 90%;
+		margin-top: 8vh;
+		margin-left: 5%;
+	}
+
+	#missionContent>p[identifier="title"]{
+		font-size: 2.2rem;
+		padding-bottom: 2vh;
+	}
+
+	#missionContent>p[identifier="text"]{
+		font-size: 1.46rem;
+		padding-top: 1vh;
+		padding-bottom: 4vh;
+	}
+	
+	#founderContent{
+		max-width: 94%;
+		margin-top: 6vh;
+		margin-left: 3%;
+	}
+	
+	#founderContent>p[identifier="note"]{
+		font-size: 1.2rem;
+	}
+
+	#founderContent>a[identifier="meetFounder"]{
+		font-size: 1.03rem;
+		top: 6vh;
+	}
+	
+	/* career */
+	#careerContent{
+		max-width: 90%;
+		margin-left: 5%;				
+	}
+
+	#careerContent>p[identifier="title"]{
+		font-size: 2.2rem;
+		padding-bottom: 1vh;
+	}
+
+	#careerContent>p[identifier="text"]{
+		font-size: 1.47rem;
+		padding-top: 3vh;
+		padding-bottom: 5vh;
+	}
+
+	#careerContent>a[identifier="goCareer"]{
+		font-size: 1.03rem;
+		top: 6vh;
+	}
+	
+}

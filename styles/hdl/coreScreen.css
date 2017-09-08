@@ -1,0 +1,631 @@
+@charset "utf-8";
+
+/*
+	HDL for MD/SM/XS Screens
+*/
+
+@media (min-width: 992px) and (max-width: 1200px) and (orientation:landscape) {
+	
+	/* home */
+	#homeBody{
+		overflow-x: hidden;
+	}
+	
+	#homeContentCo{
+		margin-top: 38vh !important;
+	}
+	
+	#homeContentCo>p[identifier="title"]{
+		font-size: 4.0rem;
+		line-height: 1.85;
+	}
+	
+	#homeContentCo>p[identifier="subTitle"]{
+		font-size: 1.645rem;
+	}
+	
+	#homeContentCo>a[identifier="homeCTA"]{
+		font-size: 1.445rem;
+	}
+	
+	/* intro */
+	#introContent{
+		margin-top: 35vh !important;
+	}
+	
+	#introContent>p[identifier="desc"]{
+		font-size: 1.5rem;
+	}
+	
+	#arrowSVG{
+		margin-top: 22vh;
+	}
+	
+	/* abstract */
+	#abstractContent>p[identifier="heading"]{
+		font-size: 1.8rem;
+	}
+	
+	#abstractContent>p[identifier="title"]{
+		font-size: 2.5rem;
+		line-height: 1.45;
+	}
+	
+	#abstractContent>p[identifier="desc"]{
+		font-size: 1.38571rem;
+	}
+	
+	#abstractContent>p[identifier="bottomDesc"]{
+		font-size: 1.15571rem;
+	}
+	
+	#abstractView{
+		margin-top: 25vh !important;
+	}
+	
+	/* transparent */
+	#transparentView{
+		margin-top: 36vh !important;
+	}
+	
+	#transparentContent>p[identifier="title"]{
+		font-size: 2.5rem;
+		line-height: 1.3854;
+	}
+	
+	#transparentContent>p[identifier="desc"]{
+		font-size: 1.278rem;
+	}
+	
+	#transparentContent>a[id="epilenDataCTA"]{
+		font-size: 1.3rem;
+	}
+	
+	#transparentContent>a[id="epilenDataCTA"]>span[identifier="icon"]{
+		font-size: 2.045rem;
+		top: -2px;
+	}
+	
+	/* outcome */
+	#outcomeContent>p[identifier="heading"]{
+		font-size: 1.9rem;
+	}
+	
+	#outcomeContent>p[identifier="title"]{
+		font-size: 2.545rem;
+	}
+	
+	#outcomeContent>p[identifier="desc"]{
+		font-size: 1.45571rem;
+		line-height: 1.75;
+	}
+	
+	#outcomeStakeholderCo{
+		height: 140px;
+	}
+	
+	#outcomeStakeholderBox{
+		height: 140px;
+		width: 140px; 
+	}
+	
+	#outcomeStakeholderContent{
+		padding-top: 18%;
+	}
+	
+	#outcomeStakeholderContent>span[identifier="icon"]{
+		font-size: 4.0rem;
+		padding-top: 7%;
+	}
+	
+	#outcomeStakeholderContent>p[identifier="subject"]{
+		font-size: 1.4rem;
+	}
+	
+	/* peopleOutcome, govOutcome, orgOutcome {classes are applied, 'oc' stands for 'outcome'} */
+	.ocContent>p[identifier="title"]{
+		font-size: 1.6rem;
+	}
+	
+	.ocContent>p[identifier="subject"]{
+		font-size: 3.0rem;
+	}
+	
+	.ocContent>p[identifier="desc"]{
+		font-size: 1.35rem;
+	}
+	
+	.ocMoreLink>span[identifier="text"]{
+		font-size: 1.3rem;
+	}
+	
+	.ocMoreLink>span[identifier="icon"]{
+		font-size: 2.045rem;
+		top: -3px;
+	}
+	
+	/* all css in terms of classes [css common for pocExtension (people), gocExtension (gov.) & oocExtension (org.)] */
+	.ocExtensionViewClose>span[identifier="closeIcon"]{
+		font-size: 2.6545rem;
+	}
+	
+	.ocExtensionHeaderTitleCo>p[identifier="title"]{
+		font-size: 5.04545rem;
+		line-height: 1.05724;
+	}
+	
+	.ocExtensionHeaderDescCo>p[identifier="desc"]{
+		font-size: 1.4rem;
+		line-height: 1.5846;
+	}
+	
+	.ocExtensionListSeq{
+		font-size: 5.04545rem;
+	}
+	
+	.ocExtensionListTitle{
+		font-size: 3.45545rem;
+	}
+	
+	.ocExtensionListDesc{
+		font-size: 1.4rem;
+		line-height: 1.5446;
+	}
+	
+	/* gocExtension */
+	#segIntroContent>p[identifier="quote"]{
+		font-size: 2.14545rem;
+	}
+	
+	/* oocExtension */
+	.ocExtensionHeaderTitleCo.org>p[identifier="title"]{
+		font-size: 4.8rem;
+	}
+	
+	.oocTilesContentIcon{
+		font-size: 4.0rem;
+	}
+	
+	.oocTilesContentTitle{
+		font-size: 1.745rem;
+	}
+	
+	.oocTilesContentText{
+		font-size: 1.35545rem;
+		line-height: 1.47724;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	/* home */
+	#homeBody{
+		overflow-x: hidden;
+	}
+	
+	#homeContentCo{
+		margin-top: 38vh !important;
+	}
+	
+	#homeContentCo>p[identifier="title"]{
+		font-size: 3.5rem;
+		line-height: 1.85;
+	}
+	
+	#homeContentCo>p[identifier="subTitle"]{
+		font-size: 1.45rem;
+	}
+	
+	#homeContentCo>a[identifier="homeCTA"]{
+		font-size: 1.345rem;
+	}
+	
+	/* intro */
+	#introContent{
+		margin-top: 35vh !important;
+	}
+	
+	#introContent>p[identifier="desc"]{
+		font-size: 1.345rem;
+	}
+	
+	#arrowSVG{
+		margin-top: 22vh;
+	}
+	
+	/* abstract */
+	#abstractContent>p[identifier="heading"]{
+		font-size: 1.5rem;
+		line-height: 1.45;
+	}
+	
+	#abstractContent>p[identifier="title"]{
+		font-size: 2.0rem;
+		margin-top: 2.545%;
+	}
+	
+	#abstractContent>p[identifier="desc"]{
+		font-size: 1.28571rem;
+	}
+	
+	#abstractContent>p[identifier="bottomDesc"]{
+		font-size: 1.13571rem;
+	}
+	
+	#abstractView{
+		margin-top: 25vh !important;
+	}
+	
+	/* transparent */
+	#transparentView{
+		margin-top: 36vh !important;
+	}
+	
+	#transparentContent>p[identifier="title"]{
+		font-size: 2.1rem;
+		line-height: 1.3854;
+	}
+	
+	#transparentContent>p[identifier="desc"]{
+		font-size: 1.158rem;
+	}
+	
+	#transparentContent>a[id="epilenDataCTA"]{
+		font-size: 1.18rem;
+	}
+	
+	#transparentContent>a[id="epilenDataCTA"]>span[identifier="icon"]{
+		font-size: 1.5rem;
+		top: -2px;
+	}
+	
+	/* outcome */
+	#outcomeView{
+		margin-top: 8%;
+	}
+	
+	#outcomeContent>p[identifier="heading"]{
+		font-size: 1.645rem;
+	}
+	
+	#outcomeContent>p[identifier="title"]{
+		font-size: 2.245rem;
+	}
+	
+	#outcomeContent>p[identifier="desc"]{
+		font-size: 1.34571rem;
+		line-height: 1.65;
+	}
+	
+	#outcomeStakeholder{
+		margin-top: 8%;
+		margin-left: 22%;
+	}
+	
+	#outcomeStakeholderCo{
+		height: 120px;
+	}
+	
+	#outcomeStakeholderBox{
+		height: 120px;
+		width: 120px; 
+	}
+	
+	#outcomeStakeholderContent{
+		padding-top: 16%;
+	}
+	
+	#outcomeStakeholderContent>span[identifier="icon"]{
+		font-size: 3.2rem;
+	}
+	
+	#outcomeStakeholderContent>p[identifier="subject"]{
+		font-size: 1.25rem;
+		padding-top: 10%;
+	}
+	
+	/* peopleOutcome, govOutcome, orgOutcome {classes are applied, 'oc' stands for 'outcome'} */
+	.ocContent>p[identifier="title"]{
+		font-size: 1.35rem;
+	}
+	
+	.ocContent>p[identifier="subject"]{
+		font-size: 2.45rem;
+		margin-top: 4%;
+	}
+	
+	.ocContent>p[identifier="desc"]{
+		font-size: 1.28rem;
+		line-height: 1.75;
+		margin-top: 6%;
+	}
+	
+	.ocMoreLink>span[identifier="text"]{
+		font-size: 1.2445rem;
+	}
+	
+	.ocMoreLink>span[identifier="icon"]{
+		font-size: 1.8rem;
+		top: -1px;
+	}
+	
+	/* all css in terms of classes [css common for pocExtension (people), gocExtension (gov.) & oocExtension (org.)] */
+	.ocExtensionViewClose>span[identifier="closeIcon"]{
+		font-size: 2.4545rem;
+	}
+	
+	.ocExtensionHeaderTitleCo>p[identifier="title"]{
+		font-size: 4.4545rem;
+		line-height: 1.05724;
+	}
+	
+	.ocExtensionHeaderDescCo>p[identifier="desc"]{
+		font-size: 1.35rem;
+		line-height: 1.5846;
+	}
+	
+	.ocExtensionListSeq{
+		font-size: 4.4545rem;
+	}
+	
+	.ocExtensionListTitle{
+		font-size: 3.05545rem;
+	}
+	
+	.ocExtensionListDesc{
+		font-size: 1.35rem;
+		line-height: 1.5446;
+	}
+	
+	/* gocExtension */
+	#segIntroContent>p[identifier="quote"]{
+		font-size: 2.04545rem;
+	}
+	
+	/* oocExtension */
+	.ocExtensionHeaderTitleCo.org>p[identifier="title"]{
+		font-size: 4.2rem;
+	}
+	
+	.oocTilesContentIcon{
+		font-size: 3.6rem;
+	}
+	
+	.oocTilesContentTitle{
+		font-size: 1.645rem;
+	}
+	
+	.oocTilesContentText{
+		font-size: 1.34rem;
+		line-height: 1.47724;
+	}
+	
+}
+
+/* XS Screens */
+@media screen and (max-width: 768px) {
+	
+	/* home */
+	#homeContentCo{
+		margin-top: 30vh;
+	}
+
+	#homeContentCo>p[identifier="title"]{
+		font-size: 3.0rem;
+		line-height: 1.2;
+	}
+
+	#homeContentCo>p[identifier="subTitle"]{
+		font-size: 1.345rem;
+		line-height: 1.5;
+		margin-top: 3vh;
+		width: 86%;
+		margin-left: 7%;
+	}
+
+	#homeContentCo>a[identifier="homeCTA"]{
+		font-size: 1.4rem;
+		top: 5vh;
+	}
+	
+	/* intro */
+	#introContent{
+		text-align: left;
+		margin-top: 22vh;
+	}
+	
+	#introContent>p[identifier="desc"]{
+		font-size: 1.28rem;
+		width: 80%;
+		margin-left: 10%;
+		line-height: 1.75;
+	}
+	
+	/* abstract */
+	#abstractCon{
+		background-position-x: 72%; 
+	}
+	
+	#abstractContent>p[identifier="heading"]{
+		font-size: 1.5rem;
+	}
+	
+	#abstractContent>p[identifier="title"]{
+		font-size: 2.2rem;
+		line-height: 1.345;
+		margin-top: 2vh;
+	}
+	
+	#abstractContent>p[identifier="desc"]{
+		font-size: 1.15rem;
+		line-height: 1.77778;
+		margin-top: 4vh;
+		margin-bottom: 3vh;
+	}
+
+	#abstractContent>p[identifier="bottomDesc"]{
+		font-weight: bold;
+		font-size: 1.08rem;
+		line-height: 1.77778;
+		margin-top: 5vh;
+		padding-top: 16px;
+	}
+	
+	/* transparent */
+	#transparentCon{
+		background-position-x: 0; 
+	}
+	
+	#transparentView{
+		margin-top: 22vh;
+	}
+	
+	#transparentContent>p[identifier="title"]{
+		font-size: 2.0rem;
+		line-height: 1.4454;
+	}
+
+	#transparentContent>p[identifier="desc"]{
+		font-size: 1.05rem;
+		margin-top: 4vh;
+	}
+	
+	/* outcome */
+	#outcomeContent{
+		margin-top: 7vh;
+	}
+	
+	#outcomeContent>p[identifier="heading"]{
+		font-size: 1.4rem;
+	}
+
+	#outcomeContent>p[identifier="title"]{
+		font-size: 2.2rem;
+		line-height: 1.35;
+		margin-top: 2vh;
+	}
+
+	#outcomeContent>p[identifier="desc"]{
+		font-size: 1.08571rem;
+		line-height: 1.77778;
+		margin-top: 4vh;
+		margin-bottom: 3vh;
+		width: 90%;
+		margin-left: 5%;
+	}
+	
+	#outcomeStakeholder{
+		margin-top: 6vh;
+		margin-left: 0;
+	}
+
+	#outcomeStakeholderCo{
+		height: 100px;
+	}
+
+	#outcomeStakeholderBox{
+		-webkit-border-radius: 4px;
+    	-moz-border-radius: 4px;
+		-o-border-radius: 4px;
+		-ms-border-radius: 4px;
+    	border-radius: 4px;
+    	height: 100px;
+		width: 100px;
+	}
+	
+	#outcomeStakeholderContent>span[identifier="icon"]{
+		font-size: 2.5rem;
+	}
+
+	#outcomeStakeholderContent>p[identifier="subject"]{
+		font-size: 1.05rem;
+		line-height: 1.25;
+		padding-top: 1.5vh;
+	}
+	
+	/* peopleOutcome, govOutcome, orgOutcome {classes are applied, 'oc' stands for 'outcome'} */
+	.ocView{
+		margin-top: 10vh;
+	}
+	
+	.ocContent>p[identifier="title"]{
+		font-size: 1.4rem;
+		line-height: 1.4454;
+	}
+
+	.ocContent>p[identifier="subject"]{
+		font-size: 2.7rem;
+		line-height: 1.2554;
+		margin-top: 2vh;
+	}
+
+	.ocContent>p[identifier="desc"]{
+		font-size: 1.2rem;
+		margin-top: 4vh;
+	}
+	
+	.ocMoreLink>span[identifier="text"]{
+		font-size: 1.25rem;
+	}
+
+	.ocMoreLink>span[identifier="icon"]{
+		font-size: 2.0rem;
+		left: 10px;
+		top: -2px;
+	}
+	
+	/* all css in terms of classes [css common for pocExtension (people), gocExtension (gov.) & oocExtension (org.)] */
+	.ocExtensionViewClose>span[identifier="closeIcon"]{
+		top: 4vh;
+	}
+	
+	.ocExtensionHeaderTitleCo>p[identifier="title"]{
+		font-size: 3.4rem;
+	}
+	
+	.ocExtensionHeaderDescCo>p[identifier="desc"]{
+		font-size: 1.4rem;
+		padding-top: 4vh;
+	}
+	
+	.ocExtensionList{
+		margin-top: 5vh;
+	}
+
+	.ocExtensionList.next{
+		margin-top: 5vh;
+	}
+
+	.ocExtensionList.last{
+		padding-bottom: 10vh;
+	}
+	
+	.ocExtensionListDesc{
+		font-size: 1.4rem;
+		margin-top: 6vh;
+	}
+	
+	/* gocExtension */
+	#segIntroContent>p[identifier="quote"]{
+		font-size: 1.8rem;
+	}
+	
+	/* oocExtension */
+	#tilesContent{
+		padding-top: 6vh;
+	}
+	
+	.oocTilesContentIcon{
+		font-size: 3.5rem;
+	}
+
+	.oocTilesContentTitle{
+		font-size: 1.7rem;
+	}
+
+	.oocTilesContentText{
+		font-size: 1.25545rem;
+	}
+	
+}

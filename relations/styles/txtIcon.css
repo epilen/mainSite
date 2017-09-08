@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'talent';
+    src: url('fonts/talent.eot');
+    src: url('fonts/talent.eot?#iefix') format('embedded-opentype'),
+         url('fonts/talent.woff') format('woff'),
+         url('fonts/talent.ttf') format('truetype'),
+         url('fonts/talent.svg#talent') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "talent" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height:normal;
+}
+
+[class^="talent-"]:before,
+[class*=" talent-"]:before {
+  font-family: "talent" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height:normal;
+}
+
+.talent-impactGrowth:before{content:'\0041';}
+.talent-humanityFuture:before{content:'\0042';}
+.talent-limitChallenge:before{content:'\0043';}
+.talent-arrowNext:before{content:'\0044';}
+.talent-arrowPrev:before{content:'\0045';}
+.talent-radioNo:before{content:'\0046';}
+.talent-radioYes:before{content:'\0047';}
+.talent-checked:before{content:'\0048';}
+.talent-settingsTool:before{content:'\0049';}

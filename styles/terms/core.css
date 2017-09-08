@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/*
+	Terms of Usage CSS
+*/
+
+/* home */
+#termsConCo{
+	background: linear-gradient(180deg, #27282c 1%, rgba(65, 66, 67, 0.445) 36%, #27282c), url("../../images/terms/tablePaper.jpg");
+	min-height: 100vh;
+}
+
+#termsConLayer{
+	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,1), transparent);
+    background-image: -moz-gradient(bottom, rgba(0,0,0,1), transparent);
+    background-image: -o-linear-gradient(bottom, rgba(0,0,0,1), transparent);
+    background-image: -ms-linear-gradient(bottom, rgba(0,0,0,1), transparent);
+    background-image: linear-gradient(to top, rgba(0,0,0,1), transparent);
+	min-height: 100vh;
+}
+
+#termsContentCo{
+	margin-top: 40vh;
+}
+
+#termsContentCo>p[identifier="title"]{
+	font-size: 3.765rem;
+	color: #fff;
+	line-height: 1.28;
+	text-shadow: 3px 3px 12px rgba(0,0,0,.6);
+	width: 60%;
+	margin-left: 20%;
+}
+
+#termsContentCo>span[identifier="arrowDown"]{
+	font-size: 4.0rem;
+	color: rgba(255,255,255,.45);
+	top: 38vh;
+}
+
+#termsContentCo>span[identifier="arrowDown"]:hover{
+	color: #fff;
+}
+
+/* note */
+#noteCon{
+	background: #f5f5f5;
+	padding-bottom: 20vh;
+}
+
+#noteContent{
+	padding-top: 10vh;
+}
+
+#noteContent>p[identifier="mainTitle"]{
+	font-size: 2.0rem;
+	color: #000;
+}
+
+#noteContent>p[identifier="mainTitle"]>span[identifier="icon"]{
+	font-size: 2.0rem;
+	color: #4CD964;
+}
+
+#noteContent>p[identifier="mainTitle"]>span[identifier="text"]{
+	left:6px;
+	top:-3px;
+}
+
+#noteContent>p[identifier="title"]{
+	font-size: 2.0rem;
+	color: #000;
+}
+
+#noteContent>p[identifier="subTitle"]{
+	font-size: 1.55rem;
+	color: #000;
+	margin-top: 1.5%;
+}
+
+#noteContent>p[identifier="text"]{
+	font-size: 1.34rem;
+	color: #000;
+	margin-top: 1%;
+}
+
+
+#noteContent>ol{
+	font-size: 1.3rem;
+	color: #000;
+	margin-top: 1%;
+}
+
+#noteContent>ul{
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: #000;
+	margin-top: 1%;
+}
+
+.boldText{
+	font-family: 'Quicksand';
+	font-weight: 600 !important;
+}
+
+.marTop{
+	margin-top:2%;
+}
+
+.marTop1{
+	margin-top:1%;
+}

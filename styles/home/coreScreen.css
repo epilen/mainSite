@@ -1,0 +1,305 @@
+@charset "utf-8";
+
+/*
+	MD, SM & XS Screens
+*/
+
+@media (min-width: 992px) and (max-width: 1200px) and (orientation:landscape) {
+	
+	/* intro */
+	#introContent{
+		margin-top: 66vh;
+	}
+	
+	#introPointContent>span{
+		font-size: 2.945vw;
+	}
+	
+	#introPointContent>p{
+		font-size: 1.15vw;
+	}
+	
+	#feaText {
+    	font-size: 1.6045rem;
+	}
+	
+	/* care */
+	#careContent{
+		margin-top: 15vh;
+	}
+	
+	#carePointContent>span{
+		font-size: 2.5vw;
+	}
+	
+	#carePointContent>p{
+		font-size: .98vw;
+	}
+	
+	/* benefit */
+	#benefitContent{
+		margin-top: 17vh;
+	}
+	
+	#benefitPointContent>span{
+		font-size: 2.945vw;
+	}
+	
+	#benefitPointContent>p{
+		font-size: 1.2vw;
+	}
+	
+	/* member */
+	#memberInfo>p[identifier="desc"]{
+		font-size: 1.25vw;
+		line-height: 1.445;
+	}
+	
+	#memberTitleBlock{
+		height: 38vh;
+		width: 26vw;
+	}
+	
+	#memberSummaryContent>p[type="title"]{
+		font-size: .945vw;
+	}
+	
+	#memberSummaryContent>p[type="text"]{
+		font-size: .945vw;
+	}
+	
+	/* hdl */
+	#hdlContent>p[identifier="title"]{
+		font-size: 2.2vw;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	/* intro */
+	#introContent{
+		margin-top: 66vh;
+	}
+	
+	#introPointContent>span{
+		font-size: 2.945vw;
+	}
+	
+	#introPointContent>p{
+		font-size: 1.15vw;
+	}
+	
+	#feaText {
+    	font-size: 1.45rem;
+	}
+	
+	/* care */
+	#careContent{
+		margin-top: 15vh;
+	}
+	
+	#carePointContent>span{
+		font-size: 2.5vw;
+	}
+	
+	#carePointContent>p{
+		font-size: .98vw;
+	}
+	
+	/* benefit */
+	#benefitContent{
+		margin-top: 17vh;
+	}
+	
+	#benefitPointContent>span{
+		font-size: 2.945vw;
+	}
+	
+	#benefitPointContent>p{
+		font-size: 1.2vw;
+	}
+	
+	/* member */
+	#memberInfo>p[identifier="desc"]{
+		font-size: 1.19vw;
+		line-height: 1.445;
+	}
+	
+	#memberTitleBlock{
+		height: 41vh;
+		width: 26vw;
+	}
+	
+	#memberSummaryContent>p[type="title"]{
+		font-size: .945vw;
+	}
+	
+	#memberSummaryContent>p[type="text"]{
+		font-size: .945vw;
+	}
+	
+	/* hdl */
+	#hdlContent>p[identifier="title"]{
+		font-size: 2.2vw;
+	}
+	
+}
+
+/* XS Screen */
+@media screen and (max-width: 768px) {
+	
+	/* home */
+	#homeContentCo {
+		height: 48vh;
+	}
+	
+	#homeContentCo>p[identifier="title"]{
+		font-size: 1.8rem;
+		line-height: 1.27;
+		width: 90%;
+		margin-left: 5%;
+	}
+	
+	#homeContentCo>a[identifier="homeCTA"]{
+		font-size: 1.4rem;
+		top: 3.5vh;
+	}
+	
+	#homeBottomCo {
+		height: 14vh;
+		padding-top: 2vh;
+	}
+	
+	#feaText {
+    	padding-top: 1vh;
+    	font-size: 1.195rem;
+    	line-height: 1.4;
+	}
+	
+	/* intro */
+	#introConCo{
+		background-position-x: 80% !important; 
+	}
+	
+	#introContent{
+		margin-top: 30vh;
+	}
+	
+	#introContent>p[identifier="title"]{
+		font-size: 2.0rem;
+		line-height: 1.25;
+		width: 70%;
+		margin-left: 15%;
+	}
+	
+	#introPoint{
+		margin-top: 1vh;
+	}
+	
+	#introPointContent{
+		margin-top: 4vh;
+	}
+	
+	#introPointContent>span{
+		font-size: 3.45rem;
+	}
+
+	#introPointContent>p{
+		font-size: 1.3rem;
+	}
+	
+	/* care */
+	#careConCo{
+		background-position-y: 40% !important;
+	}
+	
+	#careContent{
+		margin-top: 8vh;
+	}
+	
+	#careContent>p[identifier="title"]{
+		font-size: 1.7rem;
+	}
+	
+	#carePointContent{
+		margin-top: -3vh;
+		width: 76%;
+		margin-left: 12%;
+	}
+	
+	#carePointContent>span{
+		font-size: 2.0rem;
+	}
+
+	#carePointContent>p{
+		font-size: 1.0rem;
+		margin-top: 1vh;
+	}
+	
+	/* benefit */
+	#benefitConCo{
+		height: 100vh;
+	}
+	
+	#benefitContent{
+		margin-top: 11vh;
+	}
+	
+	#benefitContent>p[identifier="title"]{
+		font-size: 2.4rem;
+	}
+	
+	#benefitPointContent{
+		width: 70%;
+		margin-left: 15%;
+	}
+	
+	#benefitPointContent>span{
+		font-size: 3.0rem;
+	}
+
+	#benefitPointContent>p{
+		font-size: 1.3rem;
+	}
+	
+	/* member */
+	#memberCon{
+		height: 112vh;
+	}
+	
+	#memberInfo>p[identifier="title"]{
+		font-size: 2.4rem;
+	}
+
+	#memberInfo>p[identifier="desc"]{
+		font-size: 1.1rem;
+	}
+	
+	#memberTitleBlock{
+		height: 40vh;
+		width: 70vw;
+		margin-top: -8vh;
+	}
+	
+	#memberSummaryContent>p[type="title"]{
+		font-size: 1.2rem;
+	}
+
+	#memberSummaryContent>p[type="text"]{
+		font-size: 1.1rem;
+	}
+	
+	/* hdl */
+	#hdlContent{
+		margin-top: 58vh;
+	}
+	
+	#hdlContent>p[identifier="title"]{
+		font-size: 2.2rem;
+		width: 80%;
+		margin-left: 10%;
+		line-height: 1.35;
+	}
+	
+}
