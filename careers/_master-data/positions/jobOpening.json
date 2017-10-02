@@ -2,6 +2,18 @@
     {
         "id": "FT101",
 		"type": "FT",
+        "title": "Software Engineer, Frontend",
+        "area": "Engineering",
+		"postDate": "19 September 2017",
+		"location": "New Delhi - India",
+		"angelLink": "https://angel.co/epilen/jobs/279802-software-engineer-frontend",
+		"overview": "Frontend Engineers are an essential part of Epilen's Product Team. Working closely with designers, we implement the user interface of our web app. We build libraries and abstractions to make our live easier. We make the most of modern tools like React, and we ensure our UIs work well on all screen sizes. We are looking for people who specializes in CSS, front-end infrastructure and JavaScript.<br /><br />We expect you to collaborate with designers to iterate on the design and implementation of our product, work with Backend Engineers to build features and ship experiments.",
+		"profiles": "Expert knowledge of JavaScript;<br />Experience with modern JavaScript libraries and tooling;<br />Familiarity with server-side MVC web frameworks;<br />Commanding grasp of HTML, CSS, and related web technologies;<br />Strong Computer Science fundamentals;<br />Awareness of cross-browser compatibility issues and client-side performance considerations;<br />Demonstrated design and UX sensibilities.",
+		"benefits": "Competitive salaries;<br />2 employee travel program in a year;<br />Medical & dental insurance<sup>‡</sup>;<br />Community Involvement (4 hours per month to help the people we serve by talking to them and understanding the ways to help beyond Epilen);<br />Company sponsored/invited tech talks and happy hours;<br />On-time salary & rewards."
+    },
+	{
+        "id": "FT102",
+		"type": "FT",
         "title": "Software Engineer, iOS",
         "area": "Engineering",
 		"postDate": "04 September 2017",
@@ -12,7 +24,7 @@
 		"benefits": "Competitive salaries;<br />2 employee travel program in a year;<br />Medical & dental insurance<sup>‡</sup>;<br />Community Involvement (4 hours per month to help the people we serve by talking to them and understanding the ways to help beyond Epilen);<br />Company sponsored/invited tech talks and happy hours;<br />On-time salary & rewards."
     },
 	{
-        "id": "FT102",
+        "id": "FT103",
 		"type": "FT",
         "title": "Software Engineer, Analytics Product",
         "area": "Engineering",
@@ -24,7 +36,7 @@
 		"benefits": "Competitive salaries;<br />2 employee travel program in a year;<br />Medical & dental insurance<sup>‡</sup>;<br />Community Involvement (4 hours per month to help the people we serve by talking to them and understanding the ways to help beyond Epilen);<br />Company sponsored/invited tech talks and happy hours;<br />On-time salary & rewards."
     },
 	{
-        "id": "FT103",
+        "id": "FT104",
 		"type": "FT",
         "title": "Interface Designer",
         "area": "Design",
@@ -37,7 +49,7 @@
 		"benefits": "Competitive salaries;<br />2 employee travel program in a year;<br />Medical & dental insurance<sup>‡</sup>;<br />Community Involvement (4 hours per month to help the people we serve by talking to them and understanding the ways to help beyond Epilen);<br />Company sponsored/invited tech talks and happy hours;<br />On-time salary & rewards."
     },
 	{
-        "id": "FT104",
+        "id": "FT105",
 		"type": "FT",
         "title": "Senior Android Developer",
         "area": "Mobility Solutions",
